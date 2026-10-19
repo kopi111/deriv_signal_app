@@ -1,0 +1,772 @@
+[
+  {
+    "symbol": "frxUSDSEK",
+    "name": "USD / SEK",
+    "timeframe": "15m",
+    "trigger": "limit",
+    "bars": 24232,
+    "spread": 0.006,
+    "walk_forward": {
+      "trades": 77,
+      "win_rate": 0.338,
+      "profit_factor": 1.09,
+      "expectancy_r": 0.057,
+      "total_r": 4.4,
+      "avg_reward_risk": 2.38
+    },
+    "lockbox": {
+      "trades": 6,
+      "win_rate": 0.333,
+      "profit_factor": 0.54,
+      "expectancy_r": -0.306,
+      "total_r": -1.8,
+      "avg_reward_risk": 2.42
+    },
+    "beat_random_p": 0.0,
+    "chosen_rules": {
+      "pivot_reach": 8,
+      "stop_share": 0.3,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.2,
+        "level_memory": 800,
+        "trades": 27,
+        "total_r": -12.66
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 19,
+        "total_r": 3.85
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 8,
+        "total_r": 1.48
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 7,
+        "total_r": 3.89
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 13,
+        "total_r": 2.36
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 3,
+        "total_r": 5.48
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "frxXAGUSD",
+    "name": "Silver / USD",
+    "timeframe": "15m",
+    "trigger": "limit",
+    "bars": 23162,
+    "spread": 0.035,
+    "walk_forward": {
+      "trades": 799,
+      "win_rate": 0.255,
+      "profit_factor": 0.93,
+      "expectancy_r": -0.048,
+      "total_r": -38.7,
+      "avg_reward_risk": 2.76
+    },
+    "lockbox": {
+      "trades": 212,
+      "win_rate": 0.33,
+      "profit_factor": 1.28,
+      "expectancy_r": 0.187,
+      "total_r": 39.6,
+      "avg_reward_risk": 2.59
+    },
+    "beat_random_p": 0.23,
+    "chosen_rules": {
+      "pivot_reach": 12,
+      "stop_share": 0.3,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 145,
+        "total_r": -30.29
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 123,
+        "total_r": 26.9
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 118,
+        "total_r": 22.52
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 137,
+        "total_r": 0.31
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 125,
+        "total_r": -42.59
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 151,
+        "total_r": -15.57
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "frxXAUUSD",
+    "name": "Gold / USD",
+    "timeframe": "15m",
+    "trigger": "limit",
+    "bars": 23165,
+    "spread": 0.4,
+    "walk_forward": {
+      "trades": 1029,
+      "win_rate": 0.247,
+      "profit_factor": 0.97,
+      "expectancy_r": -0.023,
+      "total_r": -24.2,
+      "avg_reward_risk": 2.99
+    },
+    "lockbox": {
+      "trades": 318,
+      "win_rate": 0.248,
+      "profit_factor": 0.98,
+      "expectancy_r": -0.017,
+      "total_r": -5.5,
+      "avg_reward_risk": 2.93
+    },
+    "beat_random_p": 0.407,
+    "chosen_rules": {
+      "pivot_reach": 12,
+      "stop_share": 0.3,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 139,
+        "total_r": 20.28
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 136,
+        "total_r": -4.64
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 195,
+        "total_r": -38.53
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 218,
+        "total_r": 25.62
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 138,
+        "total_r": -5.7
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 203,
+        "total_r": -21.19
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "frxXPDUSD",
+    "name": "Palladium / USD",
+    "timeframe": "15m",
+    "trigger": "limit",
+    "bars": 23140,
+    "spread": 3.0,
+    "walk_forward": {
+      "trades": 218,
+      "win_rate": 0.271,
+      "profit_factor": 0.81,
+      "expectancy_r": -0.142,
+      "total_r": -31.0,
+      "avg_reward_risk": 2.28
+    },
+    "lockbox": {
+      "trades": 13,
+      "win_rate": 0.385,
+      "profit_factor": 1.37,
+      "expectancy_r": 0.225,
+      "total_r": 2.9,
+      "avg_reward_risk": 2.21
+    },
+    "beat_random_p": 0.0,
+    "chosen_rules": {
+      "pivot_reach": 12,
+      "stop_share": 0.3,
+      "level_memory": 800,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 87,
+        "total_r": -3.4
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 68,
+        "total_r": -18.57
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 29,
+        "total_r": -3.77
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 13,
+        "total_r": -1.81
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 18,
+        "total_r": -3.6
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 3,
+        "total_r": 0.14
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "frxXPTUSD",
+    "name": "Platinum / USD",
+    "timeframe": "15m",
+    "trigger": "limit",
+    "bars": 23143,
+    "spread": 2.0,
+    "walk_forward": {
+      "trades": 553,
+      "win_rate": 0.3,
+      "profit_factor": 1.03,
+      "expectancy_r": 0.02,
+      "total_r": 11.1,
+      "avg_reward_risk": 2.48
+    },
+    "lockbox": {
+      "trades": 84,
+      "win_rate": 0.405,
+      "profit_factor": 1.52,
+      "expectancy_r": 0.31,
+      "total_r": 26.1,
+      "avg_reward_risk": 2.24
+    },
+    "beat_random_p": 0.0,
+    "chosen_rules": {
+      "pivot_reach": 5,
+      "stop_share": 0.3,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 120,
+        "total_r": 18.53
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 126,
+        "total_r": -4.34
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 96,
+        "total_r": 3.73
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 72,
+        "total_r": -4.35
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 74,
+        "total_r": 5.51
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 65,
+        "total_r": -8.0
+      }
+    ],
+    "verdict": "PASS"
+  },
+  {
+    "symbol": "frxUSDSEK",
+    "name": "USD / SEK",
+    "timeframe": "15m",
+    "trigger": "rejection",
+    "bars": 24232,
+    "spread": 0.006,
+    "walk_forward": {
+      "trades": 39,
+      "win_rate": 0.179,
+      "profit_factor": 0.45,
+      "expectancy_r": -0.449,
+      "total_r": -17.5,
+      "avg_reward_risk": 2.37
+    },
+    "lockbox": {
+      "trades": 6,
+      "win_rate": 0.167,
+      "profit_factor": 0.02,
+      "expectancy_r": -0.817,
+      "total_r": -4.9,
+      "avg_reward_risk": 2.99
+    },
+    "beat_random_p": 0.037,
+    "chosen_rules": {
+      "pivot_reach": 8,
+      "stop_share": 0.3,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.2,
+        "level_memory": 800,
+        "trades": 12,
+        "total_r": -8.45
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.2,
+        "level_memory": 800,
+        "trades": 13,
+        "total_r": -9.44
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 8,
+        "total_r": 1.33
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 3,
+        "total_r": -1.21
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 1,
+        "total_r": -1.0
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 2,
+        "total_r": 1.24
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "frxXAGUSD",
+    "name": "Silver / USD",
+    "timeframe": "15m",
+    "trigger": "rejection",
+    "bars": 23162,
+    "spread": 0.035,
+    "walk_forward": {
+      "trades": 514,
+      "win_rate": 0.251,
+      "profit_factor": 0.79,
+      "expectancy_r": -0.156,
+      "total_r": -80.4,
+      "avg_reward_risk": 2.46
+    },
+    "lockbox": {
+      "trades": 104,
+      "win_rate": 0.356,
+      "profit_factor": 1.3,
+      "expectancy_r": 0.193,
+      "total_r": 20.0,
+      "avg_reward_risk": 2.4
+    },
+    "beat_random_p": 0.847,
+    "chosen_rules": {
+      "pivot_reach": 12,
+      "stop_share": 0.3,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 110,
+        "total_r": -26.13
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 109,
+        "total_r": 16.85
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 79,
+        "total_r": 6.55
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 77,
+        "total_r": -24.75
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 68,
+        "total_r": -31.97
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 71,
+        "total_r": -20.97
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "frxXAUUSD",
+    "name": "Gold / USD",
+    "timeframe": "15m",
+    "trigger": "rejection",
+    "bars": 23165,
+    "spread": 0.4,
+    "walk_forward": {
+      "trades": 937,
+      "win_rate": 0.265,
+      "profit_factor": 0.88,
+      "expectancy_r": -0.086,
+      "total_r": -80.5,
+      "avg_reward_risk": 2.76
+    },
+    "lockbox": {
+      "trades": 230,
+      "win_rate": 0.265,
+      "profit_factor": 0.86,
+      "expectancy_r": -0.101,
+      "total_r": -23.3,
+      "avg_reward_risk": 2.58
+    },
+    "beat_random_p": 0.153,
+    "chosen_rules": {
+      "pivot_reach": 8,
+      "stop_share": 0.3,
+      "level_memory": 800,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 166,
+        "total_r": 9.63
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 145,
+        "total_r": -7.15
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 188,
+        "total_r": 4.49
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 153,
+        "total_r": -34.38
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 149,
+        "total_r": -34.05
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 136,
+        "total_r": -19.07
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "frxXPDUSD",
+    "name": "Palladium / USD",
+    "timeframe": "15m",
+    "trigger": "rejection",
+    "bars": 23140,
+    "spread": 3.0,
+    "walk_forward": {
+      "trades": 72,
+      "win_rate": 0.153,
+      "profit_factor": 0.31,
+      "expectancy_r": -0.585,
+      "total_r": -42.1,
+      "avg_reward_risk": 3.35
+    },
+    "lockbox": {
+      "trades": 14,
+      "win_rate": 0.286,
+      "profit_factor": 0.71,
+      "expectancy_r": -0.209,
+      "total_r": -2.9,
+      "avg_reward_risk": 2.39
+    },
+    "beat_random_p": 0.677,
+    "chosen_rules": {
+      "pivot_reach": 12,
+      "stop_share": 0.3,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 31,
+        "total_r": -15.12
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 14,
+        "total_r": -10.83
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 8,
+        "total_r": -8.0
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 8,
+        "total_r": -3.23
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 6,
+        "total_r": -1.49
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 5,
+        "total_r": -3.48
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "frxXPTUSD",
+    "name": "Platinum / USD",
+    "timeframe": "15m",
+    "trigger": "rejection",
+    "bars": 23143,
+    "spread": 2.0,
+    "walk_forward": {
+      "trades": 244,
+      "win_rate": 0.27,
+      "profit_factor": 0.83,
+      "expectancy_r": -0.124,
+      "total_r": -30.3,
+      "avg_reward_risk": 2.46
+    },
+    "lockbox": {
+      "trades": 40,
+      "win_rate": 0.425,
+      "profit_factor": 1.58,
+      "expectancy_r": 0.336,
+      "total_r": 13.4,
+      "avg_reward_risk": 2.3
+    },
+    "beat_random_p": 0.0,
+    "chosen_rules": {
+      "pivot_reach": 12,
+      "stop_share": 0.3,
+      "level_memory": 800,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 70,
+        "total_r": -1.69
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 53,
+        "total_r": -12.35
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 43,
+        "total_r": -6.0
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 36,
+        "total_r": -6.23
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 21,
+        "total_r": -2.59
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 21,
+        "total_r": -1.48
+      }
+    ],
+    "verdict": "FAIL"
+  }
+]

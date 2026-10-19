@@ -1,0 +1,2588 @@
+{
+ "playbook_generated": "2026-09-18T16:52:40+00:00",
+ "updated": "2026-10-19 23:10",
+ "overall": {
+  "closed": 289,
+  "wins": 103,
+  "total_r": -9.61
+ },
+ "markets": [
+  {
+   "symbol": "R_100",
+   "name": "Volatility 100",
+   "timeframe": "1h",
+   "strategy": "bollinger_reversion",
+   "proven": false,
+   "last_candle": "2026-10-19 22:00",
+   "closed": 16,
+   "wins": 6,
+   "losses": 10,
+   "total_r": 1.23,
+   "profit_factor": 1.13,
+   "open": 1,
+   "trades": [
+    {
+     "signal_at": "2026-09-20 07:00",
+     "side": "SELL",
+     "entry": 586.00584,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-20 11:00"
+    },
+    {
+     "signal_at": "2026-09-20 13:00",
+     "side": "SELL",
+     "entry": 605.26584,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-21 23:00"
+    },
+    {
+     "signal_at": "2026-09-22 11:00",
+     "side": "BUY",
+     "entry": 594.94416,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-22 23:00"
+    },
+    {
+     "signal_at": "2026-09-23 00:00",
+     "side": "BUY",
+     "entry": 588.09416,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-24 05:00"
+    },
+    {
+     "signal_at": "2026-09-24 07:00",
+     "side": "BUY",
+     "entry": 570.97416,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-25 17:00"
+    },
+    {
+     "signal_at": "2026-09-26 08:00",
+     "side": "SELL",
+     "entry": 624.09584,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-27 07:00"
+    },
+    {
+     "signal_at": "2026-09-27 08:00",
+     "side": "BUY",
+     "entry": 585.92416,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-28 19:00"
+    },
+    {
+     "signal_at": "2026-09-28 20:00",
+     "side": "SELL",
+     "entry": 629.66584,
+     "status": "loss",
+     "result_r": -0.14,
+     "closed_at": "2026-09-30 20:00"
+    },
+    {
+     "signal_at": "2026-10-01 21:00",
+     "side": "BUY",
+     "entry": 588.75416,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-02 02:00"
+    },
+    {
+     "signal_at": "2026-10-05 06:00",
+     "side": "BUY",
+     "entry": 623.31416,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-06 00:00"
+    },
+    {
+     "signal_at": "2026-10-06 01:00",
+     "side": "BUY",
+     "entry": 607.66416,
+     "status": "win",
+     "result_r": 0.37,
+     "closed_at": "2026-10-08 01:00"
+    },
+    {
+     "signal_at": "2026-10-09 01:00",
+     "side": "BUY",
+     "entry": 593.56416,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-09 20:00"
+    },
+    {
+     "signal_at": "2026-10-09 21:00",
+     "side": "SELL",
+     "entry": 632.01584,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-11 17:00"
+    },
+    {
+     "signal_at": "2026-10-13 17:00",
+     "side": "SELL",
+     "entry": 667.82584,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-15 00:00"
+    },
+    {
+     "signal_at": "2026-10-16 12:00",
+     "side": "SELL",
+     "entry": 664.71584,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-17 14:00"
+    },
+    {
+     "signal_at": "2026-10-17 15:00",
+     "side": "SELL",
+     "entry": 681.94584,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-18 11:00"
+    },
+    {
+     "signal_at": "2026-10-19 07:00",
+     "side": "SELL",
+     "entry": 718.13584,
+     "status": "open",
+     "result_r": 0.37,
+     "closed_at": null
+    }
+   ]
+  },
+  {
+   "symbol": "1HZ100V",
+   "name": "Volatility 100 (1s)",
+   "timeframe": "15m",
+   "strategy": "bollinger_reversion",
+   "proven": false,
+   "last_candle": "2026-10-19 22:45",
+   "closed": 44,
+   "wins": 11,
+   "losses": 33,
+   "total_r": -11.0,
+   "profit_factor": 0.67,
+   "open": 1,
+   "trades": [
+    {
+     "signal_at": "2026-09-21 19:15",
+     "side": "BUY",
+     "entry": 924.60812,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-22 00:15"
+    },
+    {
+     "signal_at": "2026-09-22 01:00",
+     "side": "BUY",
+     "entry": 907.22812,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-22 06:30"
+    },
+    {
+     "signal_at": "2026-09-22 10:30",
+     "side": "SELL",
+     "entry": 932.81188,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-22 12:45"
+    },
+    {
+     "signal_at": "2026-09-22 19:15",
+     "side": "BUY",
+     "entry": 934.70812,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-22 21:15"
+    },
+    {
+     "signal_at": "2026-09-22 21:30",
+     "side": "BUY",
+     "entry": 928.22812,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-23 04:45"
+    },
+    {
+     "signal_at": "2026-09-23 05:00",
+     "side": "SELL",
+     "entry": 949.52188,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-23 06:30"
+    },
+    {
+     "signal_at": "2026-09-23 12:30",
+     "side": "BUY",
+     "entry": 955.64812,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-23 16:30"
+    },
+    {
+     "signal_at": "2026-09-24 00:45",
+     "side": "SELL",
+     "entry": 965.79188,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-24 01:15"
+    },
+    {
+     "signal_at": "2026-09-24 01:45",
+     "side": "SELL",
+     "entry": 974.12188,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-24 05:15"
+    },
+    {
+     "signal_at": "2026-09-24 06:00",
+     "side": "BUY",
+     "entry": 946.37812,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-24 07:15"
+    },
+    {
+     "signal_at": "2026-09-24 19:30",
+     "side": "SELL",
+     "entry": 980.65188,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-24 20:15"
+    },
+    {
+     "signal_at": "2026-09-25 10:00",
+     "side": "BUY",
+     "entry": 994.08812,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-25 13:00"
+    },
+    {
+     "signal_at": "2026-09-25 19:15",
+     "side": "SELL",
+     "entry": 1041.22188,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-25 20:30"
+    },
+    {
+     "signal_at": "2026-09-26 21:30",
+     "side": "SELL",
+     "entry": 1018.10188,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-26 22:00"
+    },
+    {
+     "signal_at": "2026-09-27 14:30",
+     "side": "SELL",
+     "entry": 1050.32188,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-27 17:00"
+    },
+    {
+     "signal_at": "2026-09-27 22:00",
+     "side": "BUY",
+     "entry": 1035.68812,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-27 22:30"
+    },
+    {
+     "signal_at": "2026-09-27 23:15",
+     "side": "BUY",
+     "entry": 1015.77812,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-28 00:45"
+    },
+    {
+     "signal_at": "2026-09-30 08:15",
+     "side": "SELL",
+     "entry": 1013.68188,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-30 14:45"
+    },
+    {
+     "signal_at": "2026-09-30 15:00",
+     "side": "SELL",
+     "entry": 1021.42188,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-30 17:00"
+    },
+    {
+     "signal_at": "2026-10-01 10:30",
+     "side": "SELL",
+     "entry": 1029.12188,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-01 17:45"
+    },
+    {
+     "signal_at": "2026-10-02 11:15",
+     "side": "SELL",
+     "entry": 984.32188,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-02 11:45"
+    },
+    {
+     "signal_at": "2026-10-02 18:15",
+     "side": "BUY",
+     "entry": 989.61812,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-02 21:45"
+    },
+    {
+     "signal_at": "2026-10-02 22:00",
+     "side": "SELL",
+     "entry": 1010.05188,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-02 23:00"
+    },
+    {
+     "signal_at": "2026-10-04 00:00",
+     "side": "SELL",
+     "entry": 1050.83188,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-04 01:15"
+    },
+    {
+     "signal_at": "2026-10-05 02:00",
+     "side": "BUY",
+     "entry": 1119.18812,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-05 02:45"
+    },
+    {
+     "signal_at": "2026-10-05 03:00",
+     "side": "BUY",
+     "entry": 1110.10812,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-05 03:45"
+    },
+    {
+     "signal_at": "2026-10-07 09:00",
+     "side": "SELL",
+     "entry": 1267.18188,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-07 14:30"
+    },
+    {
+     "signal_at": "2026-10-08 16:45",
+     "side": "BUY",
+     "entry": 1232.22812,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-08 18:30"
+    },
+    {
+     "signal_at": "2026-10-08 19:00",
+     "side": "SELL",
+     "entry": 1254.53188,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-09 02:00"
+    },
+    {
+     "signal_at": "2026-10-09 02:15",
+     "side": "BUY",
+     "entry": 1240.54812,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-09 04:00"
+    },
+    {
+     "signal_at": "2026-10-10 20:45",
+     "side": "SELL",
+     "entry": 1231.81188,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-10 21:00"
+    },
+    {
+     "signal_at": "2026-10-10 21:15",
+     "side": "SELL",
+     "entry": 1238.21188,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-11 01:15"
+    },
+    {
+     "signal_at": "2026-10-12 16:15",
+     "side": "SELL",
+     "entry": 1403.26188,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-12 18:30"
+    },
+    {
+     "signal_at": "2026-10-12 18:45",
+     "side": "BUY",
+     "entry": 1367.98812,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-12 21:30"
+    },
+    {
+     "signal_at": "2026-10-14 20:45",
+     "side": "BUY",
+     "entry": 1208.23812,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-14 23:30"
+    },
+    {
+     "signal_at": "2026-10-14 23:45",
+     "side": "SELL",
+     "entry": 1234.59188,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-15 03:00"
+    },
+    {
+     "signal_at": "2026-10-15 07:00",
+     "side": "SELL",
+     "entry": 1239.41188,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-15 15:30"
+    },
+    {
+     "signal_at": "2026-10-15 16:30",
+     "side": "SELL",
+     "entry": 1252.34188,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-15 17:15"
+    },
+    {
+     "signal_at": "2026-10-15 17:30",
+     "side": "SELL",
+     "entry": 1274.21188,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-15 20:00"
+    },
+    {
+     "signal_at": "2026-10-17 08:00",
+     "side": "BUY",
+     "entry": 1392.76812,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-17 08:45"
+    },
+    {
+     "signal_at": "2026-10-17 19:00",
+     "side": "BUY",
+     "entry": 1393.92812,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-17 19:30"
+    },
+    {
+     "signal_at": "2026-10-17 20:00",
+     "side": "BUY",
+     "entry": 1374.62812,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-17 22:00"
+    },
+    {
+     "signal_at": "2026-10-18 04:45",
+     "side": "BUY",
+     "entry": 1351.11812,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-18 07:00"
+    },
+    {
+     "signal_at": "2026-10-19 18:30",
+     "side": "SELL",
+     "entry": 1172.87188,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-19 19:00"
+    },
+    {
+     "signal_at": "2026-10-19 19:30",
+     "side": "SELL",
+     "entry": 1183.45188,
+     "status": "open",
+     "result_r": 1.1,
+     "closed_at": null
+    }
+   ]
+  },
+  {
+   "symbol": "R_75",
+   "name": "Volatility 75",
+   "timeframe": "1h",
+   "strategy": "rsi2_reversion",
+   "proven": false,
+   "last_candle": "2026-10-19 22:00",
+   "closed": 14,
+   "wins": 5,
+   "losses": 9,
+   "total_r": 1.0,
+   "profit_factor": 1.11,
+   "open": 1,
+   "trades": [
+    {
+     "signal_at": "2026-09-20 17:00",
+     "side": "SELL",
+     "entry": 42920.02556,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-21 09:00"
+    },
+    {
+     "signal_at": "2026-09-22 06:00",
+     "side": "SELL",
+     "entry": 42872.24826,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-22 21:00"
+    },
+    {
+     "signal_at": "2026-09-23 03:00",
+     "side": "SELL",
+     "entry": 44162.96006,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-23 06:00"
+    },
+    {
+     "signal_at": "2026-09-24 06:00",
+     "side": "BUY",
+     "entry": 45979.24054,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-24 12:00"
+    },
+    {
+     "signal_at": "2026-09-24 15:00",
+     "side": "BUY",
+     "entry": 45020.66814,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-25 14:00"
+    },
+    {
+     "signal_at": "2026-09-30 16:00",
+     "side": "BUY",
+     "entry": 45568.79744,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-01 01:00"
+    },
+    {
+     "signal_at": "2026-10-05 16:00",
+     "side": "BUY",
+     "entry": 45200.77564,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-06 03:00"
+    },
+    {
+     "signal_at": "2026-10-07 17:00",
+     "side": "BUY",
+     "entry": 46874.82624,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-08 04:00"
+    },
+    {
+     "signal_at": "2026-10-11 19:00",
+     "side": "SELL",
+     "entry": 42398.71286,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-11 23:00"
+    },
+    {
+     "signal_at": "2026-10-14 15:00",
+     "side": "SELL",
+     "entry": 39770.50076,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-14 17:00"
+    },
+    {
+     "signal_at": "2026-10-16 16:00",
+     "side": "SELL",
+     "entry": 39385.94376,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-17 00:00"
+    },
+    {
+     "signal_at": "2026-10-17 15:00",
+     "side": "SELL",
+     "entry": 38327.46776,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-18 07:00"
+    },
+    {
+     "signal_at": "2026-10-18 13:00",
+     "side": "SELL",
+     "entry": 38388.83586,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-18 20:00"
+    },
+    {
+     "signal_at": "2026-10-19 11:00",
+     "side": "SELL",
+     "entry": 37026.73706,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-19 20:00"
+    },
+    {
+     "signal_at": "2026-10-19 21:00",
+     "side": "SELL",
+     "entry": 37709.19866,
+     "status": "open",
+     "result_r": -0.72,
+     "closed_at": null
+    }
+   ]
+  },
+  {
+   "symbol": "1HZ75V",
+   "name": "Volatility 75 (1s)",
+   "timeframe": "1h",
+   "strategy": "donchian_breakout",
+   "proven": true,
+   "last_candle": "2026-10-19 22:00",
+   "closed": 9,
+   "wins": 3,
+   "losses": 6,
+   "total_r": 0.0,
+   "profit_factor": 1.0,
+   "open": 0,
+   "trades": [
+    {
+     "signal_at": "2026-09-20 18:00",
+     "side": "SELL",
+     "entry": 5425.68123,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-21 01:00"
+    },
+    {
+     "signal_at": "2026-09-27 09:00",
+     "side": "SELL",
+     "entry": 5135.17123,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-29 08:00"
+    },
+    {
+     "signal_at": "2026-10-05 05:00",
+     "side": "SELL",
+     "entry": 4765.28123,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-06 03:00"
+    },
+    {
+     "signal_at": "2026-10-09 07:00",
+     "side": "SELL",
+     "entry": 4974.84123,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-10 03:00"
+    },
+    {
+     "signal_at": "2026-10-10 09:00",
+     "side": "SELL",
+     "entry": 4630.04123,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-10 17:00"
+    },
+    {
+     "signal_at": "2026-10-15 14:00",
+     "side": "SELL",
+     "entry": 4524.75123,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-15 17:00"
+    },
+    {
+     "signal_at": "2026-10-17 01:00",
+     "side": "BUY",
+     "entry": 4922.40877,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-17 11:00"
+    },
+    {
+     "signal_at": "2026-10-17 15:00",
+     "side": "BUY",
+     "entry": 5302.19877,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-18 06:00"
+    },
+    {
+     "signal_at": "2026-10-18 19:00",
+     "side": "BUY",
+     "entry": 5346.08877,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-18 22:00"
+    }
+   ]
+  },
+  {
+   "symbol": "stpRNG",
+   "name": "Step Index",
+   "timeframe": "1h",
+   "strategy": "legacy_ema_cross",
+   "proven": true,
+   "last_candle": "2026-10-19 22:00",
+   "closed": 17,
+   "wins": 6,
+   "losses": 11,
+   "total_r": -6.02,
+   "profit_factor": 0.45,
+   "open": 0,
+   "trades": [
+    {
+     "signal_at": "2026-09-19 08:00",
+     "side": "SELL",
+     "entry": 7565.02544,
+     "status": "win",
+     "result_r": 0.83,
+     "closed_at": "2026-09-19 12:00"
+    },
+    {
+     "signal_at": "2026-09-20 01:00",
+     "side": "BUY",
+     "entry": 7566.77456,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-20 16:00"
+    },
+    {
+     "signal_at": "2026-09-24 15:00",
+     "side": "BUY",
+     "entry": 7425.57456,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-25 23:00"
+    },
+    {
+     "signal_at": "2026-09-26 10:00",
+     "side": "BUY",
+     "entry": 7418.57456,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-27 04:00"
+    },
+    {
+     "signal_at": "2026-09-29 21:00",
+     "side": "BUY",
+     "entry": 7327.77456,
+     "status": "win",
+     "result_r": 0.83,
+     "closed_at": "2026-09-30 10:00"
+    },
+    {
+     "signal_at": "2026-09-30 13:00",
+     "side": "SELL",
+     "entry": 7325.62544,
+     "status": "win",
+     "result_r": 0.83,
+     "closed_at": "2026-09-30 20:00"
+    },
+    {
+     "signal_at": "2026-10-01 03:00",
+     "side": "BUY",
+     "entry": 7330.17456,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-01 23:00"
+    },
+    {
+     "signal_at": "2026-10-03 06:00",
+     "side": "BUY",
+     "entry": 7291.17456,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-04 10:00"
+    },
+    {
+     "signal_at": "2026-10-05 00:00",
+     "side": "BUY",
+     "entry": 7279.17456,
+     "status": "win",
+     "result_r": 0.83,
+     "closed_at": "2026-10-05 22:00"
+    },
+    {
+     "signal_at": "2026-10-06 06:00",
+     "side": "SELL",
+     "entry": 7270.32544,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-06 15:00"
+    },
+    {
+     "signal_at": "2026-10-07 03:00",
+     "side": "SELL",
+     "entry": 7285.32544,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-08 04:00"
+    },
+    {
+     "signal_at": "2026-10-08 23:00",
+     "side": "SELL",
+     "entry": 7313.32544,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-09 12:00"
+    },
+    {
+     "signal_at": "2026-10-10 21:00",
+     "side": "SELL",
+     "entry": 7341.12544,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-12 11:00"
+    },
+    {
+     "signal_at": "2026-10-12 17:00",
+     "side": "SELL",
+     "entry": 7341.72544,
+     "status": "win",
+     "result_r": 0.83,
+     "closed_at": "2026-10-13 05:00"
+    },
+    {
+     "signal_at": "2026-10-14 13:00",
+     "side": "BUY",
+     "entry": 7313.67456,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-15 00:00"
+    },
+    {
+     "signal_at": "2026-10-17 05:00",
+     "side": "BUY",
+     "entry": 7237.07456,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-17 12:00"
+    },
+    {
+     "signal_at": "2026-10-18 00:00",
+     "side": "BUY",
+     "entry": 7232.67456,
+     "status": "win",
+     "result_r": 0.83,
+     "closed_at": "2026-10-19 06:00"
+    }
+   ]
+  },
+  {
+   "symbol": "frxXAUUSD",
+   "name": "Gold / USD",
+   "timeframe": "1h",
+   "strategy": "donchian_breakout",
+   "proven": false,
+   "last_candle": "2026-10-19 22:00",
+   "closed": 8,
+   "wins": 2,
+   "losses": 6,
+   "total_r": -2.0,
+   "profit_factor": 0.67,
+   "open": 0,
+   "trades": [
+    {
+     "signal_at": "2026-09-23 13:00",
+     "side": "SELL",
+     "entry": 4283.55,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-25 10:00"
+    },
+    {
+     "signal_at": "2026-09-28 05:00",
+     "side": "SELL",
+     "entry": 4179.15,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-28 14:00"
+    },
+    {
+     "signal_at": "2026-10-07 12:00",
+     "side": "SELL",
+     "entry": 4087.18,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-07 15:00"
+    },
+    {
+     "signal_at": "2026-10-09 05:00",
+     "side": "BUY",
+     "entry": 4193.74,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-09 12:00"
+    },
+    {
+     "signal_at": "2026-10-12 00:00",
+     "side": "BUY",
+     "entry": 4209.48,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-12 05:00"
+    },
+    {
+     "signal_at": "2026-10-13 17:00",
+     "side": "SELL",
+     "entry": 4148.16,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-13 19:00"
+    },
+    {
+     "signal_at": "2026-10-14 08:00",
+     "side": "SELL",
+     "entry": 4142.87,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-14 12:00"
+    },
+    {
+     "signal_at": "2026-10-16 07:00",
+     "side": "BUY",
+     "entry": 4187.52,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-16 12:00"
+    }
+   ]
+  },
+  {
+   "symbol": "JD10",
+   "name": "Jump 10",
+   "timeframe": "1h",
+   "strategy": "rsi2_reversion",
+   "proven": false,
+   "last_candle": "2026-10-19 22:00",
+   "closed": 22,
+   "wins": 8,
+   "losses": 14,
+   "total_r": 2.0,
+   "profit_factor": 1.14,
+   "open": 0,
+   "trades": [
+    {
+     "signal_at": "2026-09-19 23:00",
+     "side": "BUY",
+     "entry": 95046.4713,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-20 03:00"
+    },
+    {
+     "signal_at": "2026-09-20 14:00",
+     "side": "BUY",
+     "entry": 94535.1213,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-21 01:00"
+    },
+    {
+     "signal_at": "2026-09-21 13:00",
+     "side": "BUY",
+     "entry": 95271.3113,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-21 17:00"
+    },
+    {
+     "signal_at": "2026-09-21 19:00",
+     "side": "BUY",
+     "entry": 94887.6213,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-23 11:00"
+    },
+    {
+     "signal_at": "2026-09-25 05:00",
+     "side": "BUY",
+     "entry": 95815.4513,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-25 07:00"
+    },
+    {
+     "signal_at": "2026-09-26 02:00",
+     "side": "BUY",
+     "entry": 95615.6613,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-26 13:00"
+    },
+    {
+     "signal_at": "2026-09-28 23:00",
+     "side": "SELL",
+     "entry": 92673.6487,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-29 02:00"
+    },
+    {
+     "signal_at": "2026-09-30 06:00",
+     "side": "SELL",
+     "entry": 93032.8487,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-30 13:00"
+    },
+    {
+     "signal_at": "2026-09-30 23:00",
+     "side": "SELL",
+     "entry": 93325.4387,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-01 06:00"
+    },
+    {
+     "signal_at": "2026-10-01 21:00",
+     "side": "SELL",
+     "entry": 93050.3787,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-02 02:00"
+    },
+    {
+     "signal_at": "2026-10-02 14:00",
+     "side": "SELL",
+     "entry": 93218.7387,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-02 23:00"
+    },
+    {
+     "signal_at": "2026-10-03 10:00",
+     "side": "SELL",
+     "entry": 93010.8987,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-04 21:00"
+    },
+    {
+     "signal_at": "2026-10-09 07:00",
+     "side": "SELL",
+     "entry": 93099.7187,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-09 10:00"
+    },
+    {
+     "signal_at": "2026-10-10 04:00",
+     "side": "BUY",
+     "entry": 93723.2513,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-10 21:00"
+    },
+    {
+     "signal_at": "2026-10-11 04:00",
+     "side": "BUY",
+     "entry": 94031.3413,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-11 14:00"
+    },
+    {
+     "signal_at": "2026-10-12 06:00",
+     "side": "BUY",
+     "entry": 94253.2613,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-12 15:00"
+    },
+    {
+     "signal_at": "2026-10-13 05:00",
+     "side": "BUY",
+     "entry": 95133.1513,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-13 06:00"
+    },
+    {
+     "signal_at": "2026-10-14 03:00",
+     "side": "BUY",
+     "entry": 94631.7613,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-14 07:00"
+    },
+    {
+     "signal_at": "2026-10-14 08:00",
+     "side": "BUY",
+     "entry": 94378.6113,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-14 19:00"
+    },
+    {
+     "signal_at": "2026-10-16 23:00",
+     "side": "SELL",
+     "entry": 93587.2587,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-17 11:00"
+    },
+    {
+     "signal_at": "2026-10-17 19:00",
+     "side": "SELL",
+     "entry": 93471.5987,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-18 10:00"
+    },
+    {
+     "signal_at": "2026-10-18 15:00",
+     "side": "SELL",
+     "entry": 93353.8387,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-19 06:00"
+    }
+   ]
+  },
+  {
+   "symbol": "1HZ25V",
+   "name": "Volatility 25 (1s)",
+   "timeframe": "1h",
+   "strategy": "bollinger_reversion",
+   "proven": true,
+   "last_candle": "2026-10-19 22:00",
+   "closed": 6,
+   "wins": 3,
+   "losses": 3,
+   "total_r": 3.0,
+   "profit_factor": 2.0,
+   "open": 0,
+   "trades": [
+    {
+     "signal_at": "2026-09-19 01:00",
+     "side": "SELL",
+     "entry": 889507.68227,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-19 09:00"
+    },
+    {
+     "signal_at": "2026-09-23 00:00",
+     "side": "BUY",
+     "entry": 888209.70773,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-24 01:00"
+    },
+    {
+     "signal_at": "2026-10-02 14:00",
+     "side": "SELL",
+     "entry": 869124.76227,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-03 05:00"
+    },
+    {
+     "signal_at": "2026-10-14 15:00",
+     "side": "SELL",
+     "entry": 876155.46227,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-14 23:00"
+    },
+    {
+     "signal_at": "2026-10-15 01:00",
+     "side": "SELL",
+     "entry": 884104.75227,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-15 21:00"
+    },
+    {
+     "signal_at": "2026-10-18 07:00",
+     "side": "SELL",
+     "entry": 870365.41227,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-18 15:00"
+    }
+   ]
+  },
+  {
+   "symbol": "1HZ15V",
+   "name": "Volatility 15 (1s)",
+   "timeframe": "15m",
+   "strategy": "macd_pullback",
+   "proven": true,
+   "last_candle": "2026-10-19 22:45",
+   "closed": 43,
+   "wins": 15,
+   "losses": 28,
+   "total_r": 2.0,
+   "profit_factor": 1.07,
+   "open": 0,
+   "trades": [
+    {
+     "signal_at": "2026-09-19 13:15",
+     "side": "SELL",
+     "entry": 13638.93866,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-19 14:00"
+    },
+    {
+     "signal_at": "2026-09-20 08:15",
+     "side": "SELL",
+     "entry": 13572.43966,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-20 12:00"
+    },
+    {
+     "signal_at": "2026-09-20 21:30",
+     "side": "SELL",
+     "entry": 13537.13366,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-21 04:15"
+    },
+    {
+     "signal_at": "2026-09-21 10:30",
+     "side": "SELL",
+     "entry": 13534.63966,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-21 11:15"
+    },
+    {
+     "signal_at": "2026-09-22 16:30",
+     "side": "BUY",
+     "entry": 13650.71034,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-22 17:45"
+    },
+    {
+     "signal_at": "2026-09-22 18:30",
+     "side": "BUY",
+     "entry": 13641.02434,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-22 21:15"
+    },
+    {
+     "signal_at": "2026-09-23 14:30",
+     "side": "SELL",
+     "entry": 13532.11066,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-23 16:00"
+    },
+    {
+     "signal_at": "2026-09-24 01:45",
+     "side": "SELL",
+     "entry": 13492.36966,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-24 03:00"
+    },
+    {
+     "signal_at": "2026-09-24 06:00",
+     "side": "SELL",
+     "entry": 13518.16666,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-24 11:00"
+    },
+    {
+     "signal_at": "2026-09-25 07:15",
+     "side": "SELL",
+     "entry": 13399.74166,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-25 13:45"
+    },
+    {
+     "signal_at": "2026-09-26 08:30",
+     "side": "SELL",
+     "entry": 13236.41966,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-26 11:30"
+    },
+    {
+     "signal_at": "2026-09-26 15:30",
+     "side": "SELL",
+     "entry": 13264.31066,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-26 16:30"
+    },
+    {
+     "signal_at": "2026-09-27 13:30",
+     "side": "SELL",
+     "entry": 13203.00866,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-27 17:15"
+    },
+    {
+     "signal_at": "2026-09-27 18:30",
+     "side": "SELL",
+     "entry": 13193.55366,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-27 19:15"
+    },
+    {
+     "signal_at": "2026-09-27 19:45",
+     "side": "SELL",
+     "entry": 13203.32866,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-27 22:30"
+    },
+    {
+     "signal_at": "2026-09-27 23:45",
+     "side": "SELL",
+     "entry": 13192.86366,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-28 01:30"
+    },
+    {
+     "signal_at": "2026-09-28 01:45",
+     "side": "BUY",
+     "entry": 13220.82034,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-28 09:30"
+    },
+    {
+     "signal_at": "2026-09-28 12:00",
+     "side": "BUY",
+     "entry": 13225.80134,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-28 17:00"
+    },
+    {
+     "signal_at": "2026-09-29 04:30",
+     "side": "BUY",
+     "entry": 13300.15034,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-29 12:15"
+    },
+    {
+     "signal_at": "2026-09-30 12:30",
+     "side": "BUY",
+     "entry": 13451.54634,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-30 22:00"
+    },
+    {
+     "signal_at": "2026-10-01 01:00",
+     "side": "BUY",
+     "entry": 13435.95434,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-01 01:45"
+    },
+    {
+     "signal_at": "2026-10-01 03:45",
+     "side": "BUY",
+     "entry": 13444.30034,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-01 04:45"
+    },
+    {
+     "signal_at": "2026-10-01 13:15",
+     "side": "BUY",
+     "entry": 13450.10234,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-01 14:15"
+    },
+    {
+     "signal_at": "2026-10-01 15:30",
+     "side": "BUY",
+     "entry": 13434.06034,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-01 17:30"
+    },
+    {
+     "signal_at": "2026-10-01 18:30",
+     "side": "BUY",
+     "entry": 13432.90834,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-01 19:00"
+    },
+    {
+     "signal_at": "2026-10-01 19:15",
+     "side": "BUY",
+     "entry": 13443.41634,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-01 20:00"
+    },
+    {
+     "signal_at": "2026-10-01 21:30",
+     "side": "BUY",
+     "entry": 13440.91134,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-02 02:15"
+    },
+    {
+     "signal_at": "2026-10-03 17:15",
+     "side": "BUY",
+     "entry": 13709.73434,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-04 00:45"
+    },
+    {
+     "signal_at": "2026-10-04 03:00",
+     "side": "BUY",
+     "entry": 13711.00234,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-04 08:30"
+    },
+    {
+     "signal_at": "2026-10-05 07:45",
+     "side": "BUY",
+     "entry": 13720.20434,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-05 10:30"
+    },
+    {
+     "signal_at": "2026-10-06 16:00",
+     "side": "BUY",
+     "entry": 13910.25034,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-06 16:30"
+    },
+    {
+     "signal_at": "2026-10-07 00:15",
+     "side": "SELL",
+     "entry": 13883.59366,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-07 01:30"
+    },
+    {
+     "signal_at": "2026-10-07 15:00",
+     "side": "BUY",
+     "entry": 13931.30034,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-07 16:00"
+    },
+    {
+     "signal_at": "2026-10-07 19:15",
+     "side": "SELL",
+     "entry": 13912.35766,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-07 20:00"
+    },
+    {
+     "signal_at": "2026-10-08 23:30",
+     "side": "SELL",
+     "entry": 13655.24466,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-09 01:45"
+    },
+    {
+     "signal_at": "2026-10-09 17:15",
+     "side": "SELL",
+     "entry": 13581.59566,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-09 18:15"
+    },
+    {
+     "signal_at": "2026-10-09 20:00",
+     "side": "SELL",
+     "entry": 13582.81466,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-09 21:45"
+    },
+    {
+     "signal_at": "2026-10-12 07:45",
+     "side": "BUY",
+     "entry": 13785.22134,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-12 13:30"
+    },
+    {
+     "signal_at": "2026-10-12 15:15",
+     "side": "BUY",
+     "entry": 13790.57334,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-12 20:15"
+    },
+    {
+     "signal_at": "2026-10-14 18:15",
+     "side": "SELL",
+     "entry": 13612.13266,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-14 20:30"
+    },
+    {
+     "signal_at": "2026-10-16 00:45",
+     "side": "SELL",
+     "entry": 13478.73366,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-16 03:00"
+    },
+    {
+     "signal_at": "2026-10-17 08:30",
+     "side": "SELL",
+     "entry": 13445.69766,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-17 08:45"
+    },
+    {
+     "signal_at": "2026-10-18 17:00",
+     "side": "SELL",
+     "entry": 13391.28466,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-18 18:30"
+    }
+   ]
+  },
+  {
+   "symbol": "R_25",
+   "name": "Volatility 25",
+   "timeframe": "15m",
+   "strategy": "ema_cross",
+   "proven": true,
+   "last_candle": "2026-10-19 22:45",
+   "closed": 53,
+   "wins": 23,
+   "losses": 30,
+   "total_r": 14.36,
+   "profit_factor": 1.48,
+   "open": 0,
+   "trades": [
+    {
+     "signal_at": "2026-09-19 06:00",
+     "side": "BUY",
+     "entry": 2682.75652,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-19 07:15"
+    },
+    {
+     "signal_at": "2026-09-19 10:00",
+     "side": "SELL",
+     "entry": 2657.26748,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-19 12:00"
+    },
+    {
+     "signal_at": "2026-09-19 23:45",
+     "side": "BUY",
+     "entry": 2657.16252,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-20 06:30"
+    },
+    {
+     "signal_at": "2026-09-20 10:00",
+     "side": "SELL",
+     "entry": 2641.38548,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-20 13:00"
+    },
+    {
+     "signal_at": "2026-09-20 16:45",
+     "side": "BUY",
+     "entry": 2659.76052,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-20 17:15"
+    },
+    {
+     "signal_at": "2026-09-20 17:45",
+     "side": "SELL",
+     "entry": 2647.98948,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-20 18:45"
+    },
+    {
+     "signal_at": "2026-09-20 19:15",
+     "side": "BUY",
+     "entry": 2654.90252,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-20 19:45"
+    },
+    {
+     "signal_at": "2026-09-20 22:15",
+     "side": "BUY",
+     "entry": 2658.45152,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-21 04:30"
+    },
+    {
+     "signal_at": "2026-09-21 05:00",
+     "side": "SELL",
+     "entry": 2640.17248,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-21 05:45"
+    },
+    {
+     "signal_at": "2026-09-21 18:15",
+     "side": "BUY",
+     "entry": 2659.31052,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-22 00:45"
+    },
+    {
+     "signal_at": "2026-09-23 02:15",
+     "side": "SELL",
+     "entry": 2694.19448,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-23 06:30"
+    },
+    {
+     "signal_at": "2026-09-24 05:15",
+     "side": "BUY",
+     "entry": 2658.90852,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-24 08:45"
+    },
+    {
+     "signal_at": "2026-09-24 19:45",
+     "side": "SELL",
+     "entry": 2652.97648,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-24 21:00"
+    },
+    {
+     "signal_at": "2026-09-27 08:30",
+     "side": "BUY",
+     "entry": 2510.67052,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-27 12:30"
+    },
+    {
+     "signal_at": "2026-09-27 17:00",
+     "side": "BUY",
+     "entry": 2513.59252,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-27 17:30"
+    },
+    {
+     "signal_at": "2026-09-29 16:30",
+     "side": "SELL",
+     "entry": 2620.35848,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-29 19:15"
+    },
+    {
+     "signal_at": "2026-09-30 04:15",
+     "side": "BUY",
+     "entry": 2622.99852,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-30 06:15"
+    },
+    {
+     "signal_at": "2026-09-30 07:15",
+     "side": "SELL",
+     "entry": 2609.02648,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-30 15:00"
+    },
+    {
+     "signal_at": "2026-09-30 20:45",
+     "side": "BUY",
+     "entry": 2613.90152,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-30 21:45"
+    },
+    {
+     "signal_at": "2026-10-01 01:45",
+     "side": "SELL",
+     "entry": 2595.10748,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-01 08:15"
+    },
+    {
+     "signal_at": "2026-10-01 18:45",
+     "side": "BUY",
+     "entry": 2609.61952,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-01 23:00"
+    },
+    {
+     "signal_at": "2026-10-02 08:15",
+     "side": "SELL",
+     "entry": 2593.44048,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-02 10:30"
+    },
+    {
+     "signal_at": "2026-10-03 15:00",
+     "side": "BUY",
+     "entry": 2582.18352,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-03 20:00"
+    },
+    {
+     "signal_at": "2026-10-04 03:45",
+     "side": "SELL",
+     "entry": 2571.25748,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-04 11:45"
+    },
+    {
+     "signal_at": "2026-10-04 20:15",
+     "side": "BUY",
+     "entry": 2567.05952,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-05 01:30"
+    },
+    {
+     "signal_at": "2026-10-06 04:45",
+     "side": "SELL",
+     "entry": 2587.73948,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-06 09:15"
+    },
+    {
+     "signal_at": "2026-10-06 11:15",
+     "side": "BUY",
+     "entry": 2594.54652,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-06 11:45"
+    },
+    {
+     "signal_at": "2026-10-06 16:00",
+     "side": "BUY",
+     "entry": 2606.19352,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-06 18:45"
+    },
+    {
+     "signal_at": "2026-10-06 20:30",
+     "side": "SELL",
+     "entry": 2579.74548,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-07 08:00"
+    },
+    {
+     "signal_at": "2026-10-08 03:30",
+     "side": "BUY",
+     "entry": 2551.78852,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-08 05:30"
+    },
+    {
+     "signal_at": "2026-10-08 17:45",
+     "side": "SELL",
+     "entry": 2571.34948,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-08 22:30"
+    },
+    {
+     "signal_at": "2026-10-08 23:00",
+     "side": "BUY",
+     "entry": 2581.67052,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-08 23:45"
+    },
+    {
+     "signal_at": "2026-10-09 01:30",
+     "side": "BUY",
+     "entry": 2579.39452,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-09 02:45"
+    },
+    {
+     "signal_at": "2026-10-09 03:15",
+     "side": "SELL",
+     "entry": 2561.48348,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-09 03:45"
+    },
+    {
+     "signal_at": "2026-10-09 05:30",
+     "side": "BUY",
+     "entry": 2580.70852,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-09 13:45"
+    },
+    {
+     "signal_at": "2026-10-10 00:15",
+     "side": "SELL",
+     "entry": 2595.41748,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-10 00:45"
+    },
+    {
+     "signal_at": "2026-10-10 11:45",
+     "side": "SELL",
+     "entry": 2597.43948,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-10 14:00"
+    },
+    {
+     "signal_at": "2026-10-10 15:00",
+     "side": "BUY",
+     "entry": 2626.50452,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-10 17:15"
+    },
+    {
+     "signal_at": "2026-10-11 13:00",
+     "side": "SELL",
+     "entry": 2637.86248,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-11 19:15"
+    },
+    {
+     "signal_at": "2026-10-12 02:45",
+     "side": "BUY",
+     "entry": 2649.20152,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-12 06:30"
+    },
+    {
+     "signal_at": "2026-10-12 19:30",
+     "side": "SELL",
+     "entry": 2651.51048,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-12 20:15"
+    },
+    {
+     "signal_at": "2026-10-12 20:30",
+     "side": "BUY",
+     "entry": 2667.37252,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-12 23:45"
+    },
+    {
+     "signal_at": "2026-10-13 03:00",
+     "side": "SELL",
+     "entry": 2656.80348,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-13 04:30"
+    },
+    {
+     "signal_at": "2026-10-13 06:15",
+     "side": "BUY",
+     "entry": 2674.81052,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-13 08:00"
+    },
+    {
+     "signal_at": "2026-10-14 01:15",
+     "side": "SELL",
+     "entry": 2695.48548,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-14 05:30"
+    },
+    {
+     "signal_at": "2026-10-14 12:45",
+     "side": "BUY",
+     "entry": 2704.92352,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-14 19:15"
+    },
+    {
+     "signal_at": "2026-10-14 20:15",
+     "side": "SELL",
+     "entry": 2684.17648,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-14 21:45"
+    },
+    {
+     "signal_at": "2026-10-15 12:30",
+     "side": "BUY",
+     "entry": 2697.62952,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-15 15:15"
+    },
+    {
+     "signal_at": "2026-10-16 09:00",
+     "side": "SELL",
+     "entry": 2691.96748,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-16 13:45"
+    },
+    {
+     "signal_at": "2026-10-16 20:45",
+     "side": "BUY",
+     "entry": 2697.79552,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-16 23:00"
+    },
+    {
+     "signal_at": "2026-10-17 16:45",
+     "side": "SELL",
+     "entry": 2712.85648,
+     "status": "win",
+     "result_r": 0.36,
+     "closed_at": "2026-10-18 04:45"
+    },
+    {
+     "signal_at": "2026-10-18 06:15",
+     "side": "BUY",
+     "entry": 2722.10852,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-18 10:30"
+    },
+    {
+     "signal_at": "2026-10-19 18:15",
+     "side": "SELL",
+     "entry": 2802.30448,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-19 19:30"
+    }
+   ]
+  },
+  {
+   "symbol": "1HZ150V",
+   "name": "Volatility 150 (1s)",
+   "timeframe": "1h",
+   "strategy": "trend_pullback",
+   "proven": true,
+   "last_candle": "2026-10-19 22:00",
+   "closed": 10,
+   "wins": 3,
+   "losses": 7,
+   "total_r": -4.29,
+   "profit_factor": 0.39,
+   "open": 0,
+   "trades": [
+    {
+     "signal_at": "2026-09-18 18:00",
+     "side": "SELL",
+     "entry": 36.67928,
+     "status": "win",
+     "result_r": 0.39,
+     "closed_at": "2026-09-20 18:00"
+    },
+    {
+     "signal_at": "2026-09-20 21:00",
+     "side": "SELL",
+     "entry": 36.39928,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-21 00:00"
+    },
+    {
+     "signal_at": "2026-09-21 04:00",
+     "side": "SELL",
+     "entry": 36.85928,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-09-21 15:00"
+    },
+    {
+     "signal_at": "2026-09-25 04:00",
+     "side": "SELL",
+     "entry": 30.85928,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-25 07:00"
+    },
+    {
+     "signal_at": "2026-09-25 19:00",
+     "side": "SELL",
+     "entry": 33.03928,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-25 23:00"
+    },
+    {
+     "signal_at": "2026-09-29 02:00",
+     "side": "SELL",
+     "entry": 31.29928,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-29 22:00"
+    },
+    {
+     "signal_at": "2026-10-01 22:00",
+     "side": "BUY",
+     "entry": 34.38072,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-02 21:00"
+    },
+    {
+     "signal_at": "2026-10-05 23:00",
+     "side": "BUY",
+     "entry": 34.05072,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-06 06:00"
+    },
+    {
+     "signal_at": "2026-10-09 18:00",
+     "side": "BUY",
+     "entry": 34.99072,
+     "status": "win",
+     "result_r": 0.32,
+     "closed_at": "2026-10-11 18:00"
+    },
+    {
+     "signal_at": "2026-10-14 04:00",
+     "side": "BUY",
+     "entry": 36.91072,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-15 08:00"
+    }
+   ]
+  },
+  {
+   "symbol": "cryBTCUSD",
+   "name": "Bitcoin / USD",
+   "timeframe": "1h",
+   "strategy": "ema_cross",
+   "proven": true,
+   "last_candle": "2026-10-19 22:00",
+   "closed": 14,
+   "wins": 4,
+   "losses": 10,
+   "total_r": -3.72,
+   "profit_factor": 0.63,
+   "open": 0,
+   "trades": [
+    {
+     "signal_at": "2026-09-23 20:00",
+     "side": "SELL",
+     "entry": 84161.601,
+     "status": "win",
+     "result_r": 0.28,
+     "closed_at": "2026-09-25 20:00"
+    },
+    {
+     "signal_at": "2026-09-27 02:00",
+     "side": "BUY",
+     "entry": 84451.607,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-28 01:00"
+    },
+    {
+     "signal_at": "2026-09-28 02:00",
+     "side": "SELL",
+     "entry": 83346.408,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-28 16:00"
+    },
+    {
+     "signal_at": "2026-09-29 13:00",
+     "side": "BUY",
+     "entry": 84201.209,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-29 15:00"
+    },
+    {
+     "signal_at": "2026-09-30 12:00",
+     "side": "BUY",
+     "entry": 85296.789,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-30 13:00"
+    },
+    {
+     "signal_at": "2026-10-03 10:00",
+     "side": "SELL",
+     "entry": 84556.225,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-04 08:00"
+    },
+    {
+     "signal_at": "2026-10-07 01:00",
+     "side": "SELL",
+     "entry": 84293.779,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-08 03:00"
+    },
+    {
+     "signal_at": "2026-10-10 15:00",
+     "side": "BUY",
+     "entry": 83045.377,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-11 15:00"
+    },
+    {
+     "signal_at": "2026-10-12 16:00",
+     "side": "SELL",
+     "entry": 82436.899,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-13 03:00"
+    },
+    {
+     "signal_at": "2026-10-13 08:00",
+     "side": "BUY",
+     "entry": 83592.14,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-14 12:00"
+    },
+    {
+     "signal_at": "2026-10-14 13:00",
+     "side": "SELL",
+     "entry": 82245.077,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-15 02:00"
+    },
+    {
+     "signal_at": "2026-10-18 10:00",
+     "side": "BUY",
+     "entry": 82097.671,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-18 13:00"
+    },
+    {
+     "signal_at": "2026-10-18 14:00",
+     "side": "SELL",
+     "entry": 81022.975,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-18 22:00"
+    },
+    {
+     "signal_at": "2026-10-19 02:00",
+     "side": "BUY",
+     "entry": 82719.726,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-19 13:00"
+    }
+   ]
+  },
+  {
+   "symbol": "frxEURAUD",
+   "name": "EUR / AUD",
+   "timeframe": "1h",
+   "strategy": "trend_pullback",
+   "proven": true,
+   "last_candle": "2026-10-19 22:00",
+   "closed": 4,
+   "wins": 0,
+   "losses": 4,
+   "total_r": -4.0,
+   "profit_factor": 0.0,
+   "open": 0,
+   "trades": [
+    {
+     "signal_at": "2026-09-22 02:00",
+     "side": "SELL",
+     "entry": 1.61114,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-23 10:00"
+    },
+    {
+     "signal_at": "2026-09-28 14:00",
+     "side": "BUY",
+     "entry": 1.61936,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-28 21:00"
+    },
+    {
+     "signal_at": "2026-10-01 13:00",
+     "side": "BUY",
+     "entry": 1.62527,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-01 17:00"
+    },
+    {
+     "signal_at": "2026-10-01 22:00",
+     "side": "BUY",
+     "entry": 1.62321,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-02 09:00"
+    }
+   ]
+  },
+  {
+   "symbol": "1HZ90V",
+   "name": "Volatility 90 (1s)",
+   "timeframe": "1h",
+   "strategy": "legacy_macd_cross",
+   "proven": true,
+   "last_candle": "2026-10-19 22:00",
+   "closed": 22,
+   "wins": 13,
+   "losses": 9,
+   "total_r": 1.83,
+   "profit_factor": 1.22,
+   "open": 0,
+   "trades": [
+    {
+     "signal_at": "2026-09-19 17:00",
+     "side": "BUY",
+     "entry": 17850.9745,
+     "status": "win",
+     "result_r": 0.83,
+     "closed_at": "2026-09-20 18:00"
+    },
+    {
+     "signal_at": "2026-09-21 04:00",
+     "side": "SELL",
+     "entry": 18189.8805,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-21 17:00"
+    },
+    {
+     "signal_at": "2026-09-22 00:00",
+     "side": "SELL",
+     "entry": 18884.8525,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-22 08:00"
+    },
+    {
+     "signal_at": "2026-09-23 00:00",
+     "side": "SELL",
+     "entry": 20313.2045,
+     "status": "win",
+     "result_r": 0.83,
+     "closed_at": "2026-09-24 03:00"
+    },
+    {
+     "signal_at": "2026-09-24 11:00",
+     "side": "BUY",
+     "entry": 20000.5835,
+     "status": "win",
+     "result_r": 0.1,
+     "closed_at": "2026-09-26 11:00"
+    },
+    {
+     "signal_at": "2026-09-26 13:00",
+     "side": "BUY",
+     "entry": 20332.2105,
+     "status": "win",
+     "result_r": 0.83,
+     "closed_at": "2026-09-27 10:00"
+    },
+    {
+     "signal_at": "2026-09-28 12:00",
+     "side": "SELL",
+     "entry": 23040.9335,
+     "status": "win",
+     "result_r": 0.83,
+     "closed_at": "2026-09-29 06:00"
+    },
+    {
+     "signal_at": "2026-09-29 22:00",
+     "side": "BUY",
+     "entry": 21291.1635,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-30 19:00"
+    },
+    {
+     "signal_at": "2026-10-01 00:00",
+     "side": "BUY",
+     "entry": 20657.0465,
+     "status": "win",
+     "result_r": 0.83,
+     "closed_at": "2026-10-01 23:00"
+    },
+    {
+     "signal_at": "2026-10-02 16:00",
+     "side": "SELL",
+     "entry": 21203.4445,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-03 18:00"
+    },
+    {
+     "signal_at": "2026-10-04 02:00",
+     "side": "SELL",
+     "entry": 22094.3895,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-04 12:00"
+    },
+    {
+     "signal_at": "2026-10-04 23:00",
+     "side": "SELL",
+     "entry": 23572.9225,
+     "status": "win",
+     "result_r": 0.83,
+     "closed_at": "2026-10-06 01:00"
+    },
+    {
+     "signal_at": "2026-10-06 20:00",
+     "side": "BUY",
+     "entry": 22296.6305,
+     "status": "win",
+     "result_r": 0.83,
+     "closed_at": "2026-10-08 05:00"
+    },
+    {
+     "signal_at": "2026-10-08 14:00",
+     "side": "SELL",
+     "entry": 22737.8555,
+     "status": "win",
+     "result_r": 0.83,
+     "closed_at": "2026-10-09 09:00"
+    },
+    {
+     "signal_at": "2026-10-09 14:00",
+     "side": "BUY",
+     "entry": 22727.5665,
+     "status": "win",
+     "result_r": 0.83,
+     "closed_at": "2026-10-09 19:00"
+    },
+    {
+     "signal_at": "2026-10-10 12:00",
+     "side": "SELL",
+     "entry": 24494.1345,
+     "status": "loss",
+     "result_r": -0.23,
+     "closed_at": "2026-10-12 12:00"
+    },
+    {
+     "signal_at": "2026-10-13 06:00",
+     "side": "BUY",
+     "entry": 25009.3975,
+     "status": "win",
+     "result_r": 0.83,
+     "closed_at": "2026-10-13 11:00"
+    },
+    {
+     "signal_at": "2026-10-14 02:00",
+     "side": "SELL",
+     "entry": 26714.9415,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-14 10:00"
+    },
+    {
+     "signal_at": "2026-10-14 14:00",
+     "side": "SELL",
+     "entry": 27085.2715,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-16 01:00"
+    },
+    {
+     "signal_at": "2026-10-16 09:00",
+     "side": "SELL",
+     "entry": 27851.5395,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-16 23:00"
+    },
+    {
+     "signal_at": "2026-10-17 06:00",
+     "side": "SELL",
+     "entry": 28758.8095,
+     "status": "win",
+     "result_r": 0.83,
+     "closed_at": "2026-10-18 19:00"
+    },
+    {
+     "signal_at": "2026-10-19 09:00",
+     "side": "BUY",
+     "entry": 27354.6715,
+     "status": "win",
+     "result_r": 0.83,
+     "closed_at": "2026-10-19 14:00"
+    }
+   ]
+  },
+  {
+   "symbol": "frxGBPNZD",
+   "name": "GBP / NZD",
+   "timeframe": "1h",
+   "strategy": "trend_pullback",
+   "proven": false,
+   "last_candle": "2026-10-19 22:00",
+   "closed": 7,
+   "wins": 1,
+   "losses": 6,
+   "total_r": -4.0,
+   "profit_factor": 0.33,
+   "open": 0,
+   "trades": [
+    {
+     "signal_at": "2026-09-22 04:00",
+     "side": "BUY",
+     "entry": 2.33418,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-22 06:00"
+    },
+    {
+     "signal_at": "2026-09-22 07:00",
+     "side": "BUY",
+     "entry": 2.33221,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-09-22 08:00"
+    },
+    {
+     "signal_at": "2026-10-08 05:00",
+     "side": "BUY",
+     "entry": 2.35952,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-09 05:00"
+    },
+    {
+     "signal_at": "2026-10-09 07:00",
+     "side": "BUY",
+     "entry": 2.35987,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-09 11:00"
+    },
+    {
+     "signal_at": "2026-10-09 12:00",
+     "side": "BUY",
+     "entry": 2.35781,
+     "status": "win",
+     "result_r": 2.0,
+     "closed_at": "2026-10-13 00:00"
+    },
+    {
+     "signal_at": "2026-10-13 13:00",
+     "side": "BUY",
+     "entry": 2.36131,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-14 03:00"
+    },
+    {
+     "signal_at": "2026-10-14 22:00",
+     "side": "BUY",
+     "entry": 2.36,
+     "status": "loss",
+     "result_r": -1.0,
+     "closed_at": "2026-10-15 02:00"
+    }
+   ]
+  }
+ ],
+ "failures": []
+}

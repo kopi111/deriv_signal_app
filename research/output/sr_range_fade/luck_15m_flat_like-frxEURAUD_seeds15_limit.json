@@ -1,0 +1,395 @@
+{
+  "timeframe": "15m",
+  "drifting": false,
+  "like": "frxEURAUD",
+  "tests": 5,
+  "false_passes": 2,
+  "false_pass_rate": 0.4,
+  "results": [
+    {
+      "symbol": "RANDOM_60015",
+      "name": "Random walk 60015 like frxEURAUD",
+      "timeframe": "15m",
+      "trigger": "limit",
+      "bars": 35000,
+      "spread": 0.174891,
+      "walk_forward": {
+        "trades": 657,
+        "win_rate": 0.306,
+        "profit_factor": 1.01,
+        "expectancy_r": 0.004,
+        "total_r": 2.6,
+        "avg_reward_risk": 2.31
+      },
+      "lockbox": {
+        "trades": 249,
+        "win_rate": 0.301,
+        "profit_factor": 1.01,
+        "expectancy_r": 0.007,
+        "total_r": 1.7,
+        "avg_reward_risk": 2.32
+      },
+      "beat_random_p": 0.0,
+      "chosen_rules": {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 5,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 87,
+          "total_r": 5.78
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 80,
+          "total_r": -15.84
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 143,
+          "total_r": 21.01
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 100,
+          "total_r": 6.1
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 106,
+          "total_r": -3.63
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 141,
+          "total_r": -10.82
+        }
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "symbol": "RANDOM_60016",
+      "name": "Random walk 60016 like frxEURAUD",
+      "timeframe": "15m",
+      "trigger": "limit",
+      "bars": 35000,
+      "spread": 0.179392,
+      "walk_forward": {
+        "trades": 737,
+        "win_rate": 0.308,
+        "profit_factor": 1.0,
+        "expectancy_r": 0.0,
+        "total_r": 0.0,
+        "avg_reward_risk": 2.31
+      },
+      "lockbox": {
+        "trades": 215,
+        "win_rate": 0.265,
+        "profit_factor": 0.83,
+        "expectancy_r": -0.123,
+        "total_r": -26.4,
+        "avg_reward_risk": 2.32
+      },
+      "beat_random_p": 0.0,
+      "chosen_rules": {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 142,
+          "total_r": -1.04
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 135,
+          "total_r": 5.98
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 150,
+          "total_r": -6.98
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 100,
+          "total_r": 2.07
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 106,
+          "total_r": -23.21
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 104,
+          "total_r": 23.2
+        }
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "symbol": "RANDOM_60017",
+      "name": "Random walk 60017 like frxEURAUD",
+      "timeframe": "15m",
+      "trigger": "limit",
+      "bars": 35000,
+      "spread": 0.174582,
+      "walk_forward": {
+        "trades": 694,
+        "win_rate": 0.313,
+        "profit_factor": 1.02,
+        "expectancy_r": 0.016,
+        "total_r": 10.8,
+        "avg_reward_risk": 2.28
+      },
+      "lockbox": {
+        "trades": 179,
+        "win_rate": 0.313,
+        "profit_factor": 1.05,
+        "expectancy_r": 0.031,
+        "total_r": 5.5,
+        "avg_reward_risk": 2.37
+      },
+      "beat_random_p": 0.0,
+      "chosen_rules": {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 92,
+          "total_r": -4.16
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 155,
+          "total_r": -16.78
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 98,
+          "total_r": 10.43
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 108,
+          "total_r": -0.49
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 134,
+          "total_r": 3.0
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 107,
+          "total_r": 18.78
+        }
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "symbol": "RANDOM_60018",
+      "name": "Random walk 60018 like frxEURAUD",
+      "timeframe": "15m",
+      "trigger": "limit",
+      "bars": 35000,
+      "spread": 0.179778,
+      "walk_forward": {
+        "trades": 429,
+        "win_rate": 0.326,
+        "profit_factor": 1.08,
+        "expectancy_r": 0.051,
+        "total_r": 21.9,
+        "avg_reward_risk": 2.24
+      },
+      "lockbox": {
+        "trades": 79,
+        "win_rate": 0.241,
+        "profit_factor": 0.66,
+        "expectancy_r": -0.256,
+        "total_r": -20.2,
+        "avg_reward_risk": 2.27
+      },
+      "beat_random_p": 0.0,
+      "chosen_rules": {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 118,
+          "total_r": -10.1
+        },
+        {
+          "pivot_reach": 5,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 68,
+          "total_r": 12.31
+        },
+        {
+          "pivot_reach": 5,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 86,
+          "total_r": 3.44
+        },
+        {
+          "pivot_reach": 5,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 49,
+          "total_r": 8.0
+        },
+        {
+          "pivot_reach": 5,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 50,
+          "total_r": 8.54
+        },
+        {
+          "pivot_reach": 5,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 58,
+          "total_r": -0.25
+        }
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "symbol": "RANDOM_60019",
+      "name": "Random walk 60019 like frxEURAUD",
+      "timeframe": "15m",
+      "trigger": "limit",
+      "bars": 35000,
+      "spread": 0.177075,
+      "walk_forward": {
+        "trades": 639,
+        "win_rate": 0.29,
+        "profit_factor": 0.94,
+        "expectancy_r": -0.044,
+        "total_r": -28.0,
+        "avg_reward_risk": 2.29
+      },
+      "lockbox": {
+        "trades": 210,
+        "win_rate": 0.29,
+        "profit_factor": 0.92,
+        "expectancy_r": -0.058,
+        "total_r": -12.3,
+        "avg_reward_risk": 2.28
+      },
+      "beat_random_p": 0.0,
+      "chosen_rules": {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 115,
+          "total_r": -3.66
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 100,
+          "total_r": 1.95
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 108,
+          "total_r": 1.36
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 109,
+          "total_r": -14.35
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 86,
+          "total_r": -2.13
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 121,
+          "total_r": -11.17
+        }
+      ],
+      "verdict": "FAIL"
+    }
+  ]
+}

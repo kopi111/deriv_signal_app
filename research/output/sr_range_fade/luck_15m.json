@@ -1,0 +1,1548 @@
+{
+  "timeframe": "15m",
+  "tests": 20,
+  "false_passes": 2,
+  "false_pass_rate": 0.1,
+  "results": [
+    {
+      "symbol": "RANDOM_60000",
+      "name": "Random walk 60000",
+      "timeframe": "15m",
+      "trigger": "limit",
+      "bars": 35000,
+      "spread": 1.060798,
+      "walk_forward": {
+        "trades": 1612,
+        "win_rate": 0.27,
+        "profit_factor": 1.1,
+        "expectancy_r": 0.076,
+        "total_r": 122.2,
+        "avg_reward_risk": 2.96
+      },
+      "lockbox": {
+        "trades": 515,
+        "win_rate": 0.233,
+        "profit_factor": 0.95,
+        "expectancy_r": -0.036,
+        "total_r": -18.5,
+        "avg_reward_risk": 3.12
+      },
+      "beat_random_p": 0.01,
+      "chosen_rules": {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 254,
+          "total_r": 100.11
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 291,
+          "total_r": 36.41
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 269,
+          "total_r": 46.84
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 344,
+          "total_r": -26.01
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 210,
+          "total_r": -26.92
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 244,
+          "total_r": -8.25
+        }
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "symbol": "RANDOM_60000",
+      "name": "Random walk 60000",
+      "timeframe": "15m",
+      "trigger": "rejection",
+      "bars": 35000,
+      "spread": 1.060798,
+      "walk_forward": {
+        "trades": 1183,
+        "win_rate": 0.255,
+        "profit_factor": 0.88,
+        "expectancy_r": -0.087,
+        "total_r": -102.9,
+        "avg_reward_risk": 2.66
+      },
+      "lockbox": {
+        "trades": 387,
+        "win_rate": 0.258,
+        "profit_factor": 0.86,
+        "expectancy_r": -0.101,
+        "total_r": -39.0,
+        "avg_reward_risk": 2.54
+      },
+      "beat_random_p": 0.617,
+      "chosen_rules": {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 170,
+          "total_r": -17.13
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 187,
+          "total_r": 20.6
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 161,
+          "total_r": -3.59
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.2,
+          "level_memory": 800,
+          "trades": 283,
+          "total_r": -49.89
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 191,
+          "total_r": -36.3
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 191,
+          "total_r": -16.54
+        }
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "symbol": "RANDOM_60001",
+      "name": "Random walk 60001",
+      "timeframe": "15m",
+      "trigger": "limit",
+      "bars": 35000,
+      "spread": 0.444016,
+      "walk_forward": {
+        "trades": 1601,
+        "win_rate": 0.264,
+        "profit_factor": 1.06,
+        "expectancy_r": 0.047,
+        "total_r": 74.6,
+        "avg_reward_risk": 2.93
+      },
+      "lockbox": {
+        "trades": 459,
+        "win_rate": 0.285,
+        "profit_factor": 1.05,
+        "expectancy_r": 0.035,
+        "total_r": 15.9,
+        "avg_reward_risk": 2.63
+      },
+      "beat_random_p": 0.043,
+      "chosen_rules": {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 274,
+          "total_r": 11.83
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 260,
+          "total_r": 16.29
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 260,
+          "total_r": 52.69
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 289,
+          "total_r": 4.54
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 310,
+          "total_r": -10.97
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 208,
+          "total_r": 0.26
+        }
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "symbol": "RANDOM_60001",
+      "name": "Random walk 60001",
+      "timeframe": "15m",
+      "trigger": "rejection",
+      "bars": 35000,
+      "spread": 0.444016,
+      "walk_forward": {
+        "trades": 1024,
+        "win_rate": 0.27,
+        "profit_factor": 0.91,
+        "expectancy_r": -0.066,
+        "total_r": -67.4,
+        "avg_reward_risk": 2.51
+      },
+      "lockbox": {
+        "trades": 221,
+        "win_rate": 0.244,
+        "profit_factor": 0.77,
+        "expectancy_r": -0.174,
+        "total_r": -38.5,
+        "avg_reward_risk": 2.39
+      },
+      "beat_random_p": 0.863,
+      "chosen_rules": {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 123,
+          "total_r": -6.38
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 177,
+          "total_r": -10.67
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 194,
+          "total_r": -21.36
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 196,
+          "total_r": -1.8
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 225,
+          "total_r": -9.09
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 109,
+          "total_r": -18.13
+        }
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "symbol": "RANDOM_60002",
+      "name": "Random walk 60002",
+      "timeframe": "15m",
+      "trigger": "limit",
+      "bars": 35000,
+      "spread": 0.438022,
+      "walk_forward": {
+        "trades": 1741,
+        "win_rate": 0.274,
+        "profit_factor": 1.09,
+        "expectancy_r": 0.065,
+        "total_r": 113.2,
+        "avg_reward_risk": 2.88
+      },
+      "lockbox": {
+        "trades": 523,
+        "win_rate": 0.264,
+        "profit_factor": 1.03,
+        "expectancy_r": 0.022,
+        "total_r": 11.4,
+        "avg_reward_risk": 2.86
+      },
+      "beat_random_p": 0.0,
+      "chosen_rules": {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 315,
+          "total_r": 0.97
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 263,
+          "total_r": -22.34
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 335,
+          "total_r": 55.4
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 278,
+          "total_r": 12.77
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 271,
+          "total_r": 43.96
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 279,
+          "total_r": 22.47
+        }
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "symbol": "RANDOM_60002",
+      "name": "Random walk 60002",
+      "timeframe": "15m",
+      "trigger": "rejection",
+      "bars": 35000,
+      "spread": 0.438022,
+      "walk_forward": {
+        "trades": 1748,
+        "win_rate": 0.193,
+        "profit_factor": 0.91,
+        "expectancy_r": -0.069,
+        "total_r": -120.6,
+        "avg_reward_risk": 4.13
+      },
+      "lockbox": {
+        "trades": 354,
+        "win_rate": 0.209,
+        "profit_factor": 0.76,
+        "expectancy_r": -0.189,
+        "total_r": -66.8,
+        "avg_reward_risk": 3.09
+      },
+      "beat_random_p": 0.183,
+      "chosen_rules": {
+        "pivot_reach": 12,
+        "stop_share": 0.2,
+        "level_memory": 300,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.1,
+          "level_memory": 300,
+          "trades": 260,
+          "total_r": -16.7
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.1,
+          "level_memory": 800,
+          "trades": 326,
+          "total_r": -4.59
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.1,
+          "level_memory": 800,
+          "trades": 456,
+          "total_r": -29.94
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.1,
+          "level_memory": 300,
+          "trades": 291,
+          "total_r": -28.61
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.2,
+          "level_memory": 300,
+          "trades": 189,
+          "total_r": -7.41
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.2,
+          "level_memory": 300,
+          "trades": 226,
+          "total_r": -33.37
+        }
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "symbol": "RANDOM_60003",
+      "name": "Random walk 60003",
+      "timeframe": "15m",
+      "trigger": "limit",
+      "bars": 35000,
+      "spread": 0.656383,
+      "walk_forward": {
+        "trades": 1688,
+        "win_rate": 0.266,
+        "profit_factor": 1.08,
+        "expectancy_r": 0.059,
+        "total_r": 99.9,
+        "avg_reward_risk": 2.97
+      },
+      "lockbox": {
+        "trades": 593,
+        "win_rate": 0.248,
+        "profit_factor": 0.98,
+        "expectancy_r": -0.012,
+        "total_r": -7.0,
+        "avg_reward_risk": 2.95
+      },
+      "beat_random_p": 0.013,
+      "chosen_rules": {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 333,
+          "total_r": 10.5
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 205,
+          "total_r": -6.97
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 315,
+          "total_r": 5.04
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 277,
+          "total_r": -21.64
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 230,
+          "total_r": -14.74
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 328,
+          "total_r": 127.68
+        }
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "symbol": "RANDOM_60003",
+      "name": "Random walk 60003",
+      "timeframe": "15m",
+      "trigger": "rejection",
+      "bars": 35000,
+      "spread": 0.656383,
+      "walk_forward": {
+        "trades": 915,
+        "win_rate": 0.257,
+        "profit_factor": 0.84,
+        "expectancy_r": -0.117,
+        "total_r": -107.5,
+        "avg_reward_risk": 2.52
+      },
+      "lockbox": {
+        "trades": 263,
+        "win_rate": 0.281,
+        "profit_factor": 0.98,
+        "expectancy_r": -0.017,
+        "total_r": -4.4,
+        "avg_reward_risk": 2.58
+      },
+      "beat_random_p": 0.963,
+      "chosen_rules": {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 163,
+          "total_r": -38.96
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 116,
+          "total_r": -18.85
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 138,
+          "total_r": -19.49
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 145,
+          "total_r": -14.89
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 126,
+          "total_r": -22.69
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 227,
+          "total_r": 7.39
+        }
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "symbol": "RANDOM_60004",
+      "name": "Random walk 60004",
+      "timeframe": "15m",
+      "trigger": "limit",
+      "bars": 35000,
+      "spread": 0.772386,
+      "walk_forward": {
+        "trades": 1707,
+        "win_rate": 0.278,
+        "profit_factor": 1.15,
+        "expectancy_r": 0.108,
+        "total_r": 184.6,
+        "avg_reward_risk": 2.96
+      },
+      "lockbox": {
+        "trades": 471,
+        "win_rate": 0.238,
+        "profit_factor": 0.97,
+        "expectancy_r": -0.025,
+        "total_r": -11.7,
+        "avg_reward_risk": 3.07
+      },
+      "beat_random_p": 0.0,
+      "chosen_rules": {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 284,
+          "total_r": -19.94
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 224,
+          "total_r": -9.5
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 362,
+          "total_r": 54.19
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 338,
+          "total_r": 32.74
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 167,
+          "total_r": 4.88
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 332,
+          "total_r": 122.2
+        }
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "symbol": "RANDOM_60004",
+      "name": "Random walk 60004",
+      "timeframe": "15m",
+      "trigger": "rejection",
+      "bars": 35000,
+      "spread": 0.772386,
+      "walk_forward": {
+        "trades": 1143,
+        "win_rate": 0.296,
+        "profit_factor": 1.04,
+        "expectancy_r": 0.029,
+        "total_r": 33.0,
+        "avg_reward_risk": 2.5
+      },
+      "lockbox": {
+        "trades": 270,
+        "win_rate": 0.267,
+        "profit_factor": 0.94,
+        "expectancy_r": -0.046,
+        "total_r": -12.4,
+        "avg_reward_risk": 2.6
+      },
+      "beat_random_p": 0.077,
+      "chosen_rules": {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 158,
+          "total_r": -44.02
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 171,
+          "total_r": 8.82
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 223,
+          "total_r": 18.89
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 194,
+          "total_r": 39.39
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 184,
+          "total_r": -9.58
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 213,
+          "total_r": 19.48
+        }
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "symbol": "RANDOM_60005",
+      "name": "Random walk 60005",
+      "timeframe": "15m",
+      "trigger": "limit",
+      "bars": 35000,
+      "spread": 0.3947,
+      "walk_forward": {
+        "trades": 1883,
+        "win_rate": 0.23,
+        "profit_factor": 0.87,
+        "expectancy_r": -0.101,
+        "total_r": -190.7,
+        "avg_reward_risk": 2.9
+      },
+      "lockbox": {
+        "trades": 550,
+        "win_rate": 0.251,
+        "profit_factor": 0.98,
+        "expectancy_r": -0.011,
+        "total_r": -6.3,
+        "avg_reward_risk": 2.92
+      },
+      "beat_random_p": 0.937,
+      "chosen_rules": {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 306,
+          "total_r": -42.5
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 291,
+          "total_r": -38.01
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 259,
+          "total_r": -12.19
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 324,
+          "total_r": -8.59
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 366,
+          "total_r": -25.77
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 337,
+          "total_r": -63.65
+        }
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "symbol": "RANDOM_60005",
+      "name": "Random walk 60005",
+      "timeframe": "15m",
+      "trigger": "rejection",
+      "bars": 35000,
+      "spread": 0.3947,
+      "walk_forward": {
+        "trades": 1133,
+        "win_rate": 0.251,
+        "profit_factor": 0.8,
+        "expectancy_r": -0.147,
+        "total_r": -167.0,
+        "avg_reward_risk": 2.43
+      },
+      "lockbox": {
+        "trades": 388,
+        "win_rate": 0.245,
+        "profit_factor": 0.78,
+        "expectancy_r": -0.168,
+        "total_r": -65.0,
+        "avg_reward_risk": 2.41
+      },
+      "beat_random_p": 0.537,
+      "chosen_rules": {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 149,
+          "total_r": -51.86
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 154,
+          "total_r": -11.31
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 159,
+          "total_r": -6.34
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 200,
+          "total_r": 0.99
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 253,
+          "total_r": -25.09
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 218,
+          "total_r": -73.42
+        }
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "symbol": "RANDOM_60006",
+      "name": "Random walk 60006",
+      "timeframe": "15m",
+      "trigger": "limit",
+      "bars": 35000,
+      "spread": 0.286526,
+      "walk_forward": {
+        "trades": 1809,
+        "win_rate": 0.263,
+        "profit_factor": 1.01,
+        "expectancy_r": 0.004,
+        "total_r": 8.0,
+        "avg_reward_risk": 2.81
+      },
+      "lockbox": {
+        "trades": 423,
+        "win_rate": 0.26,
+        "profit_factor": 0.98,
+        "expectancy_r": -0.016,
+        "total_r": -6.6,
+        "avg_reward_risk": 2.82
+      },
+      "beat_random_p": 0.02,
+      "chosen_rules": {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 310,
+          "total_r": 11.38
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 340,
+          "total_r": 1.35
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 331,
+          "total_r": -20.96
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 313,
+          "total_r": -1.12
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 283,
+          "total_r": 17.9
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 232,
+          "total_r": -0.58
+        }
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "symbol": "RANDOM_60006",
+      "name": "Random walk 60006",
+      "timeframe": "15m",
+      "trigger": "rejection",
+      "bars": 35000,
+      "spread": 0.286526,
+      "walk_forward": {
+        "trades": 986,
+        "win_rate": 0.27,
+        "profit_factor": 0.88,
+        "expectancy_r": -0.088,
+        "total_r": -86.6,
+        "avg_reward_risk": 2.42
+      },
+      "lockbox": {
+        "trades": 319,
+        "win_rate": 0.251,
+        "profit_factor": 0.78,
+        "expectancy_r": -0.162,
+        "total_r": -51.6,
+        "avg_reward_risk": 2.39
+      },
+      "beat_random_p": 0.047,
+      "chosen_rules": {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 156,
+          "total_r": -23.85
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 216,
+          "total_r": 6.84
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 189,
+          "total_r": -15.59
+        },
+        {
+          "pivot_reach": 5,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 158,
+          "total_r": -5.6
+        },
+        {
+          "pivot_reach": 5,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 136,
+          "total_r": -7.1
+        },
+        {
+          "pivot_reach": 5,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 131,
+          "total_r": -41.32
+        }
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "symbol": "RANDOM_60007",
+      "name": "Random walk 60007",
+      "timeframe": "15m",
+      "trigger": "limit",
+      "bars": 35000,
+      "spread": 0.171095,
+      "walk_forward": {
+        "trades": 1888,
+        "win_rate": 0.261,
+        "profit_factor": 1.03,
+        "expectancy_r": 0.02,
+        "total_r": 37.2,
+        "avg_reward_risk": 2.88
+      },
+      "lockbox": {
+        "trades": 454,
+        "win_rate": 0.231,
+        "profit_factor": 0.86,
+        "expectancy_r": -0.108,
+        "total_r": -49.2,
+        "avg_reward_risk": 2.84
+      },
+      "beat_random_p": 0.05,
+      "chosen_rules": {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 356,
+          "total_r": -33.89
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 288,
+          "total_r": 21.07
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 321,
+          "total_r": 38.54
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 334,
+          "total_r": 5.58
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 336,
+          "total_r": 5.53
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 253,
+          "total_r": 0.35
+        }
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "symbol": "RANDOM_60007",
+      "name": "Random walk 60007",
+      "timeframe": "15m",
+      "trigger": "rejection",
+      "bars": 35000,
+      "spread": 0.171095,
+      "walk_forward": {
+        "trades": 1665,
+        "win_rate": 0.181,
+        "profit_factor": 0.91,
+        "expectancy_r": -0.075,
+        "total_r": -124.8,
+        "avg_reward_risk": 4.57
+      },
+      "lockbox": {
+        "trades": 463,
+        "win_rate": 0.149,
+        "profit_factor": 0.64,
+        "expectancy_r": -0.307,
+        "total_r": -142.0,
+        "avg_reward_risk": 4.45
+      },
+      "beat_random_p": 0.333,
+      "chosen_rules": {
+        "pivot_reach": 12,
+        "stop_share": 0.1,
+        "level_memory": 300,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.1,
+          "level_memory": 300,
+          "trades": 302,
+          "total_r": -46.99
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.1,
+          "level_memory": 300,
+          "trades": 276,
+          "total_r": 50.43
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.1,
+          "level_memory": 300,
+          "trades": 291,
+          "total_r": -24.63
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.1,
+          "level_memory": 300,
+          "trades": 300,
+          "total_r": -28.41
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.1,
+          "level_memory": 300,
+          "trades": 256,
+          "total_r": -28.03
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.1,
+          "level_memory": 300,
+          "trades": 240,
+          "total_r": -47.18
+        }
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "symbol": "RANDOM_60008",
+      "name": "Random walk 60008",
+      "timeframe": "15m",
+      "trigger": "limit",
+      "bars": 35000,
+      "spread": 0.370961,
+      "walk_forward": {
+        "trades": 1881,
+        "win_rate": 0.24,
+        "profit_factor": 0.93,
+        "expectancy_r": -0.055,
+        "total_r": -103.0,
+        "avg_reward_risk": 2.9
+      },
+      "lockbox": {
+        "trades": 418,
+        "win_rate": 0.287,
+        "profit_factor": 1.18,
+        "expectancy_r": 0.127,
+        "total_r": 53.1,
+        "avg_reward_risk": 2.93
+      },
+      "beat_random_p": 0.567,
+      "chosen_rules": {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 309,
+          "total_r": -31.33
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 357,
+          "total_r": -53.44
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 278,
+          "total_r": -1.75
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 319,
+          "total_r": -11.09
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 320,
+          "total_r": -1.77
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 298,
+          "total_r": -3.61
+        }
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "symbol": "RANDOM_60008",
+      "name": "Random walk 60008",
+      "timeframe": "15m",
+      "trigger": "rejection",
+      "bars": 35000,
+      "spread": 0.370961,
+      "walk_forward": {
+        "trades": 1345,
+        "win_rate": 0.236,
+        "profit_factor": 0.88,
+        "expectancy_r": -0.095,
+        "total_r": -127.6,
+        "avg_reward_risk": 2.94
+      },
+      "lockbox": {
+        "trades": 277,
+        "win_rate": 0.278,
+        "profit_factor": 0.92,
+        "expectancy_r": -0.057,
+        "total_r": -15.9,
+        "avg_reward_risk": 2.47
+      },
+      "beat_random_p": 0.613,
+      "chosen_rules": {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.2,
+          "level_memory": 300,
+          "trades": 194,
+          "total_r": -9.57
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.2,
+          "level_memory": 300,
+          "trades": 251,
+          "total_r": -22.5
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.2,
+          "level_memory": 300,
+          "trades": 299,
+          "total_r": -0.16
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.2,
+          "level_memory": 300,
+          "trades": 271,
+          "total_r": -76.97
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 144,
+          "total_r": -26.91
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 800,
+          "trades": 186,
+          "total_r": 8.5
+        }
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "symbol": "RANDOM_60009",
+      "name": "Random walk 60009",
+      "timeframe": "15m",
+      "trigger": "limit",
+      "bars": 35000,
+      "spread": 0.200607,
+      "walk_forward": {
+        "trades": 1687,
+        "win_rate": 0.258,
+        "profit_factor": 1.0,
+        "expectancy_r": -0.004,
+        "total_r": -6.2,
+        "avg_reward_risk": 2.84
+      },
+      "lockbox": {
+        "trades": 436,
+        "win_rate": 0.284,
+        "profit_factor": 1.16,
+        "expectancy_r": 0.117,
+        "total_r": 50.9,
+        "avg_reward_risk": 2.91
+      },
+      "beat_random_p": 0.27,
+      "chosen_rules": {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 211,
+          "total_r": 42.7
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 299,
+          "total_r": 8.52
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 279,
+          "total_r": -5.73
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 271,
+          "total_r": -23.89
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 319,
+          "total_r": -30.35
+        },
+        {
+          "pivot_reach": 12,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 308,
+          "total_r": 2.54
+        }
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "symbol": "RANDOM_60009",
+      "name": "Random walk 60009",
+      "timeframe": "15m",
+      "trigger": "rejection",
+      "bars": 35000,
+      "spread": 0.200607,
+      "walk_forward": {
+        "trades": 1435,
+        "win_rate": 0.247,
+        "profit_factor": 0.89,
+        "expectancy_r": -0.08,
+        "total_r": -115.0,
+        "avg_reward_risk": 2.83
+      },
+      "lockbox": {
+        "trades": 295,
+        "win_rate": 0.281,
+        "profit_factor": 0.92,
+        "expectancy_r": -0.054,
+        "total_r": -16.1,
+        "avg_reward_risk": 2.44
+      },
+      "beat_random_p": 0.813,
+      "chosen_rules": {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "min_reward_risk": 2.0,
+        "max_hold_bars": 96
+      },
+      "folds": [
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.2,
+          "level_memory": 300,
+          "trades": 205,
+          "total_r": -18.99
+        },
+        {
+          "pivot_reach": 5,
+          "stop_share": 0.2,
+          "level_memory": 300,
+          "trades": 309,
+          "total_r": -25.0
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.2,
+          "level_memory": 300,
+          "trades": 264,
+          "total_r": -35.28
+        },
+        {
+          "pivot_reach": 5,
+          "stop_share": 0.2,
+          "level_memory": 300,
+          "trades": 320,
+          "total_r": -61.48
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 162,
+          "total_r": -2.53
+        },
+        {
+          "pivot_reach": 8,
+          "stop_share": 0.3,
+          "level_memory": 300,
+          "trades": 175,
+          "total_r": 28.24
+        }
+      ],
+      "verdict": "FAIL"
+    }
+  ]
+}

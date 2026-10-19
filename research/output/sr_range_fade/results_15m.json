@@ -1,0 +1,1080 @@
+[
+  {
+    "symbol": "1HZ10V",
+    "name": "Volatility 10 (1s)",
+    "timeframe": "15m",
+    "trigger": "limit",
+    "bars": 35041,
+    "spread": 0.399292,
+    "walk_forward": {
+      "trades": 1515,
+      "win_rate": 0.26,
+      "profit_factor": 1.03,
+      "expectancy_r": 0.021,
+      "total_r": 32.5,
+      "avg_reward_risk": 2.93
+    },
+    "lockbox": {
+      "trades": 498,
+      "win_rate": 0.219,
+      "profit_factor": 0.82,
+      "expectancy_r": -0.142,
+      "total_r": -71.0,
+      "avg_reward_risk": 2.93
+    },
+    "beat_random_p": 0.01,
+    "chosen_rules": {
+      "pivot_reach": 12,
+      "stop_share": 0.3,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 252,
+        "total_r": 4.77
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 302,
+        "total_r": -16.71
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 240,
+        "total_r": 13.49
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 257,
+        "total_r": 29.66
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 284,
+        "total_r": 29.71
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 180,
+        "total_r": -28.43
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "1HZ15V",
+    "name": "Volatility 15 (1s)",
+    "timeframe": "15m",
+    "trigger": "limit",
+    "bars": 35041,
+    "spread": 0.800638,
+    "walk_forward": {
+      "trades": 1668,
+      "win_rate": 0.257,
+      "profit_factor": 1.02,
+      "expectancy_r": 0.013,
+      "total_r": 21.2,
+      "avg_reward_risk": 2.9
+    },
+    "lockbox": {
+      "trades": 468,
+      "win_rate": 0.293,
+      "profit_factor": 1.24,
+      "expectancy_r": 0.171,
+      "total_r": 80.1,
+      "avg_reward_risk": 2.96
+    },
+    "beat_random_p": 0.103,
+    "chosen_rules": {
+      "pivot_reach": 12,
+      "stop_share": 0.3,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 469,
+        "total_r": -27.36
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 208,
+        "total_r": 51.06
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 239,
+        "total_r": -14.3
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 299,
+        "total_r": 11.5
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 264,
+        "total_r": -5.49
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 189,
+        "total_r": 5.81
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "1HZ25V",
+    "name": "Volatility 25 (1s)",
+    "timeframe": "15m",
+    "trigger": "limit",
+    "bars": 35041,
+    "spread": 79.84457,
+    "walk_forward": {
+      "trades": 1850,
+      "win_rate": 0.253,
+      "profit_factor": 0.99,
+      "expectancy_r": -0.01,
+      "total_r": -19.1,
+      "avg_reward_risk": 2.91
+    },
+    "lockbox": {
+      "trades": 547,
+      "win_rate": 0.232,
+      "profit_factor": 0.89,
+      "expectancy_r": -0.082,
+      "total_r": -44.7,
+      "avg_reward_risk": 2.9
+    },
+    "beat_random_p": 0.043,
+    "chosen_rules": {
+      "pivot_reach": 12,
+      "stop_share": 0.3,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 365,
+        "total_r": -22.36
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 313,
+        "total_r": -12.92
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 393,
+        "total_r": -2.49
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 226,
+        "total_r": 42.43
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 251,
+        "total_r": -11.96
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 302,
+        "total_r": -11.83
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "1HZ30V",
+    "name": "Volatility 30 (1s)",
+    "timeframe": "15m",
+    "trigger": "limit",
+    "bars": 35041,
+    "spread": 0.834932,
+    "walk_forward": {
+      "trades": 1592,
+      "win_rate": 0.241,
+      "profit_factor": 0.94,
+      "expectancy_r": -0.049,
+      "total_r": -78.3,
+      "avg_reward_risk": 2.93
+    },
+    "lockbox": {
+      "trades": 613,
+      "win_rate": 0.25,
+      "profit_factor": 0.97,
+      "expectancy_r": -0.021,
+      "total_r": -13.0,
+      "avg_reward_risk": 2.9
+    },
+    "beat_random_p": 0.517,
+    "chosen_rules": {
+      "pivot_reach": 12,
+      "stop_share": 0.3,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 280,
+        "total_r": -39.81
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 227,
+        "total_r": -13.53
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 311,
+        "total_r": -19.54
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 303,
+        "total_r": -10.67
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 193,
+        "total_r": 0.86
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 278,
+        "total_r": 4.37
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "1HZ75V",
+    "name": "Volatility 75 (1s)",
+    "timeframe": "15m",
+    "trigger": "limit",
+    "bars": 35041,
+    "spread": 1.380338,
+    "walk_forward": {
+      "trades": 1620,
+      "win_rate": 0.26,
+      "profit_factor": 1.03,
+      "expectancy_r": 0.026,
+      "total_r": 41.5,
+      "avg_reward_risk": 2.92
+    },
+    "lockbox": {
+      "trades": 419,
+      "win_rate": 0.294,
+      "profit_factor": 1.25,
+      "expectancy_r": 0.179,
+      "total_r": 75.1,
+      "avg_reward_risk": 3.08
+    },
+    "beat_random_p": 0.027,
+    "chosen_rules": {
+      "pivot_reach": 12,
+      "stop_share": 0.3,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 424,
+        "total_r": 12.64
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 215,
+        "total_r": -15.18
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 255,
+        "total_r": -35.42
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 211,
+        "total_r": -34.33
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 210,
+        "total_r": 25.94
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 305,
+        "total_r": 87.88
+      }
+    ],
+    "verdict": "PASS"
+  },
+  {
+    "symbol": "1HZ90V",
+    "name": "Volatility 90 (1s)",
+    "timeframe": "15m",
+    "trigger": "limit",
+    "bars": 35041,
+    "spread": 5.016291,
+    "walk_forward": {
+      "trades": 1650,
+      "win_rate": 0.267,
+      "profit_factor": 1.04,
+      "expectancy_r": 0.026,
+      "total_r": 42.7,
+      "avg_reward_risk": 2.83
+    },
+    "lockbox": {
+      "trades": 587,
+      "win_rate": 0.247,
+      "profit_factor": 0.99,
+      "expectancy_r": -0.008,
+      "total_r": -4.8,
+      "avg_reward_risk": 2.98
+    },
+    "beat_random_p": 0.0,
+    "chosen_rules": {
+      "pivot_reach": 12,
+      "stop_share": 0.3,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 328,
+        "total_r": -24.7
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 320,
+        "total_r": -7.65
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 293,
+        "total_r": 14.42
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 232,
+        "total_r": -1.11
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 258,
+        "total_r": 41.97
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 219,
+        "total_r": 19.75
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "JD10",
+    "name": "Jump 10",
+    "timeframe": "15m",
+    "trigger": "limit",
+    "bars": 35041,
+    "spread": 4.715649,
+    "walk_forward": {
+      "trades": 1446,
+      "win_rate": 0.272,
+      "profit_factor": 1.11,
+      "expectancy_r": 0.079,
+      "total_r": 114.5,
+      "avg_reward_risk": 2.95
+    },
+    "lockbox": {
+      "trades": 366,
+      "win_rate": 0.287,
+      "profit_factor": 1.2,
+      "expectancy_r": 0.142,
+      "total_r": 52.0,
+      "avg_reward_risk": 3.01
+    },
+    "beat_random_p": 0.017,
+    "chosen_rules": {
+      "pivot_reach": 12,
+      "stop_share": 0.3,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 240,
+        "total_r": 17.72
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 251,
+        "total_r": 41.14
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 310,
+        "total_r": -16.82
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 311,
+        "total_r": 36.38
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 150,
+        "total_r": -5.81
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 184,
+        "total_r": 41.89
+      }
+    ],
+    "verdict": "PASS"
+  },
+  {
+    "symbol": "1HZ10V",
+    "name": "Volatility 10 (1s)",
+    "timeframe": "15m",
+    "trigger": "rejection",
+    "bars": 35041,
+    "spread": 0.399292,
+    "walk_forward": {
+      "trades": 811,
+      "win_rate": 0.271,
+      "profit_factor": 0.92,
+      "expectancy_r": -0.061,
+      "total_r": -49.8,
+      "avg_reward_risk": 2.55
+    },
+    "lockbox": {
+      "trades": 270,
+      "win_rate": 0.23,
+      "profit_factor": 0.73,
+      "expectancy_r": -0.21,
+      "total_r": -56.7,
+      "avg_reward_risk": 2.52
+    },
+    "beat_random_p": 0.577,
+    "chosen_rules": {
+      "pivot_reach": 12,
+      "stop_share": 0.3,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 142,
+        "total_r": -17.78
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 146,
+        "total_r": -12.74
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 141,
+        "total_r": 2.12
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 127,
+        "total_r": 1.55
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 128,
+        "total_r": 7.49
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 127,
+        "total_r": -30.48
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "1HZ15V",
+    "name": "Volatility 15 (1s)",
+    "timeframe": "15m",
+    "trigger": "rejection",
+    "bars": 35041,
+    "spread": 0.800638,
+    "walk_forward": {
+      "trades": 997,
+      "win_rate": 0.261,
+      "profit_factor": 0.87,
+      "expectancy_r": -0.099,
+      "total_r": -99.1,
+      "avg_reward_risk": 2.52
+    },
+    "lockbox": {
+      "trades": 340,
+      "win_rate": 0.282,
+      "profit_factor": 0.98,
+      "expectancy_r": -0.016,
+      "total_r": -5.5,
+      "avg_reward_risk": 2.49
+    },
+    "beat_random_p": 0.593,
+    "chosen_rules": {
+      "pivot_reach": 8,
+      "stop_share": 0.3,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 204,
+        "total_r": -20.92
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 172,
+        "total_r": -7.58
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 125,
+        "total_r": -6.68
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 203,
+        "total_r": -8.56
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 126,
+        "total_r": -31.12
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 167,
+        "total_r": -24.22
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "1HZ25V",
+    "name": "Volatility 25 (1s)",
+    "timeframe": "15m",
+    "trigger": "rejection",
+    "bars": 35041,
+    "spread": 79.84457,
+    "walk_forward": {
+      "trades": 1019,
+      "win_rate": 0.263,
+      "profit_factor": 0.86,
+      "expectancy_r": -0.101,
+      "total_r": -103.1,
+      "avg_reward_risk": 2.5
+    },
+    "lockbox": {
+      "trades": 260,
+      "win_rate": 0.235,
+      "profit_factor": 0.75,
+      "expectancy_r": -0.191,
+      "total_r": -49.6,
+      "avg_reward_risk": 2.53
+    },
+    "beat_random_p": 0.733,
+    "chosen_rules": {
+      "pivot_reach": 12,
+      "stop_share": 0.3,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 177,
+        "total_r": -15.76
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 181,
+        "total_r": -26.41
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 203,
+        "total_r": -34.15
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 171,
+        "total_r": -5.34
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 128,
+        "total_r": -15.85
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 159,
+        "total_r": -5.58
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "1HZ30V",
+    "name": "Volatility 30 (1s)",
+    "timeframe": "15m",
+    "trigger": "rejection",
+    "bars": 35041,
+    "spread": 0.834932,
+    "walk_forward": {
+      "trades": 1030,
+      "win_rate": 0.258,
+      "profit_factor": 0.84,
+      "expectancy_r": -0.116,
+      "total_r": -119.3,
+      "avg_reward_risk": 2.52
+    },
+    "lockbox": {
+      "trades": 320,
+      "win_rate": 0.231,
+      "profit_factor": 0.74,
+      "expectancy_r": -0.197,
+      "total_r": -63.1,
+      "avg_reward_risk": 2.46
+    },
+    "beat_random_p": 0.713,
+    "chosen_rules": {
+      "pivot_reach": 12,
+      "stop_share": 0.3,
+      "level_memory": 800,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 153,
+        "total_r": -42.59
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 199,
+        "total_r": -42.04
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 151,
+        "total_r": -39.37
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 158,
+        "total_r": 7.58
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 169,
+        "total_r": 10.7
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 200,
+        "total_r": -13.55
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "1HZ75V",
+    "name": "Volatility 75 (1s)",
+    "timeframe": "15m",
+    "trigger": "rejection",
+    "bars": 35041,
+    "spread": 1.380338,
+    "walk_forward": {
+      "trades": 1195,
+      "win_rate": 0.26,
+      "profit_factor": 0.86,
+      "expectancy_r": -0.102,
+      "total_r": -121.5,
+      "avg_reward_risk": 2.48
+    },
+    "lockbox": {
+      "trades": 438,
+      "win_rate": 0.306,
+      "profit_factor": 1.09,
+      "expectancy_r": 0.064,
+      "total_r": 28.0,
+      "avg_reward_risk": 2.53
+    },
+    "beat_random_p": 0.1,
+    "chosen_rules": {
+      "pivot_reach": 5,
+      "stop_share": 0.3,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 183,
+        "total_r": -29.53
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 119,
+        "total_r": -21.23
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 223,
+        "total_r": -34.41
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 201,
+        "total_r": -26.18
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 247,
+        "total_r": -43.29
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 222,
+        "total_r": 33.15
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "1HZ90V",
+    "name": "Volatility 90 (1s)",
+    "timeframe": "15m",
+    "trigger": "rejection",
+    "bars": 35041,
+    "spread": 5.016291,
+    "walk_forward": {
+      "trades": 1047,
+      "win_rate": 0.227,
+      "profit_factor": 0.82,
+      "expectancy_r": -0.138,
+      "total_r": -144.8,
+      "avg_reward_risk": 3.13
+    },
+    "lockbox": {
+      "trades": 287,
+      "win_rate": 0.289,
+      "profit_factor": 1.03,
+      "expectancy_r": 0.02,
+      "total_r": 5.8,
+      "avg_reward_risk": 2.53
+    },
+    "beat_random_p": 0.777,
+    "chosen_rules": {
+      "pivot_reach": 12,
+      "stop_share": 0.3,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.1,
+        "level_memory": 300,
+        "trades": 295,
+        "total_r": -96.84
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.2,
+        "level_memory": 300,
+        "trades": 229,
+        "total_r": -39.69
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 135,
+        "total_r": -4.4
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 142,
+        "total_r": -23.71
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 139,
+        "total_r": 18.49
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 107,
+        "total_r": 1.39
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "JD10",
+    "name": "Jump 10",
+    "timeframe": "15m",
+    "trigger": "rejection",
+    "bars": 35041,
+    "spread": 4.715649,
+    "walk_forward": {
+      "trades": 1379,
+      "win_rate": 0.189,
+      "profit_factor": 0.97,
+      "expectancy_r": -0.024,
+      "total_r": -33.3,
+      "avg_reward_risk": 4.83
+    },
+    "lockbox": {
+      "trades": 385,
+      "win_rate": 0.221,
+      "profit_factor": 1.3,
+      "expectancy_r": 0.231,
+      "total_r": 89.1,
+      "avg_reward_risk": 4.76
+    },
+    "beat_random_p": 0.343,
+    "chosen_rules": {
+      "pivot_reach": 12,
+      "stop_share": 0.1,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.1,
+        "level_memory": 300,
+        "trades": 243,
+        "total_r": -4.28
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.1,
+        "level_memory": 300,
+        "trades": 232,
+        "total_r": 44.16
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.1,
+        "level_memory": 300,
+        "trades": 241,
+        "total_r": -33.97
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.1,
+        "level_memory": 300,
+        "trades": 268,
+        "total_r": 17.12
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.1,
+        "level_memory": 300,
+        "trades": 176,
+        "total_r": -63.64
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.1,
+        "level_memory": 300,
+        "trades": 219,
+        "total_r": 7.35
+      }
+    ],
+    "verdict": "FAIL"
+  }
+]

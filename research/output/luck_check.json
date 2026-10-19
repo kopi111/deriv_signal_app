@@ -1,0 +1,62 @@
+{
+ "tests": 800,
+ "false_passes": 11,
+ "false_pass_rate": 0.0138,
+ "passes": [
+  [
+   "RANDOM_10",
+   "1h",
+   "legacy_macd_cross"
+  ],
+  [
+   "RANDOM_26",
+   "1h",
+   "donchian_breakout"
+  ],
+  [
+   "RANDOM_27",
+   "1h",
+   "ema_bounce"
+  ],
+  [
+   "RANDOM_31",
+   "1h",
+   "rsi2_reversion"
+  ],
+  [
+   "RANDOM_31",
+   "1h",
+   "trend_pullback"
+  ],
+  [
+   "RANDOM_10002",
+   "15m",
+   "legacy_ema_cross"
+  ],
+  [
+   "RANDOM_10004",
+   "15m",
+   "rsi2_reversion"
+  ],
+  [
+   "RANDOM_10015",
+   "15m",
+   "legacy_ema_cross"
+  ],
+  [
+   "RANDOM_10019",
+   "15m",
+   "ema_bounce"
+  ],
+  [
+   "RANDOM_10038",
+   "15m",
+   "ema_bounce"
+  ],
+  [
+   "RANDOM_10038",
+   "15m",
+   "trend_pullback"
+  ]
+ ]
+}

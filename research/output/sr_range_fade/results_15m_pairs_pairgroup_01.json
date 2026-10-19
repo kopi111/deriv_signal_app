@@ -1,0 +1,926 @@
+[
+  {
+    "symbol": "frxCHFJPY",
+    "name": "CHF / JPY",
+    "timeframe": "15m",
+    "trigger": "limit",
+    "bars": 24231,
+    "spread": 0.04,
+    "walk_forward": {
+      "trades": 261,
+      "win_rate": 0.299,
+      "profit_factor": 0.95,
+      "expectancy_r": -0.034,
+      "total_r": -8.9,
+      "avg_reward_risk": 2.27
+    },
+    "lockbox": {
+      "trades": 51,
+      "win_rate": 0.235,
+      "profit_factor": 0.66,
+      "expectancy_r": -0.253,
+      "total_r": -12.9,
+      "avg_reward_risk": 2.43
+    },
+    "beat_random_p": 0.0,
+    "chosen_rules": {
+      "pivot_reach": 8,
+      "stop_share": 0.3,
+      "level_memory": 800,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 58,
+        "total_r": 0.58
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 62,
+        "total_r": -7.35
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 56,
+        "total_r": 6.37
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 39,
+        "total_r": -4.59
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 31,
+        "total_r": -9.44
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 15,
+        "total_r": 5.52
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "frxEURAUD",
+    "name": "EUR / AUD",
+    "timeframe": "15m",
+    "trigger": "limit",
+    "bars": 24232,
+    "spread": 0.0003,
+    "walk_forward": {
+      "trades": 432,
+      "win_rate": 0.331,
+      "profit_factor": 1.13,
+      "expectancy_r": 0.085,
+      "total_r": 36.7,
+      "avg_reward_risk": 2.3
+    },
+    "lockbox": {
+      "trades": 30,
+      "win_rate": 0.4,
+      "profit_factor": 1.32,
+      "expectancy_r": 0.186,
+      "total_r": 5.6,
+      "avg_reward_risk": 2.29
+    },
+    "beat_random_p": 0.0,
+    "chosen_rules": {
+      "pivot_reach": 8,
+      "stop_share": 0.3,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 114,
+        "total_r": -21.92
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 133,
+        "total_r": 30.58
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 51,
+        "total_r": 12.2
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 48,
+        "total_r": 17.73
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 51,
+        "total_r": 3.95
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 35,
+        "total_r": -5.81
+      }
+    ],
+    "verdict": "PASS"
+  },
+  {
+    "symbol": "frxEURCAD",
+    "name": "EUR / CAD",
+    "timeframe": "15m",
+    "trigger": "limit",
+    "bars": 24231,
+    "spread": 0.0003,
+    "walk_forward": {
+      "trades": 117,
+      "win_rate": 0.282,
+      "profit_factor": 0.87,
+      "expectancy_r": -0.093,
+      "total_r": -10.9,
+      "avg_reward_risk": 2.3
+    },
+    "lockbox": {
+      "trades": 13,
+      "win_rate": 0.308,
+      "profit_factor": 0.89,
+      "expectancy_r": -0.074,
+      "total_r": -1.0,
+      "avg_reward_risk": 2.22
+    },
+    "beat_random_p": 0.0,
+    "chosen_rules": {
+      "pivot_reach": 5,
+      "stop_share": 0.3,
+      "level_memory": 800,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 11,
+        "total_r": -7.43
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 64,
+        "total_r": -11.56
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 21,
+        "total_r": 6.68
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 10,
+        "total_r": 2.4
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 6,
+        "total_r": 0.45
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 5,
+        "total_r": -1.4
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "frxEURCHF",
+    "name": "EUR / CHF",
+    "timeframe": "15m",
+    "trigger": "limit",
+    "bars": 24231,
+    "spread": 0.0002,
+    "walk_forward": {
+      "trades": 150,
+      "win_rate": 0.253,
+      "profit_factor": 0.78,
+      "expectancy_r": -0.165,
+      "total_r": -24.8,
+      "avg_reward_risk": 2.48
+    },
+    "lockbox": {
+      "trades": 30,
+      "win_rate": 0.367,
+      "profit_factor": 1.32,
+      "expectancy_r": 0.196,
+      "total_r": 5.9,
+      "avg_reward_risk": 2.16
+    },
+    "beat_random_p": 0.0,
+    "chosen_rules": {
+      "pivot_reach": 12,
+      "stop_share": 0.3,
+      "level_memory": 800,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.2,
+        "level_memory": 800,
+        "trades": 50,
+        "total_r": 3.36
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.2,
+        "level_memory": 800,
+        "trades": 62,
+        "total_r": -15.92
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 21,
+        "total_r": -7.95
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 8,
+        "total_r": -3.42
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 4,
+        "total_r": 1.6
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 5,
+        "total_r": -2.46
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "frxEURGBP",
+    "name": "EUR / GBP",
+    "timeframe": "15m",
+    "trigger": "limit",
+    "bars": 24232,
+    "spread": 0.00015,
+    "walk_forward": {
+      "trades": 119,
+      "win_rate": 0.277,
+      "profit_factor": 0.81,
+      "expectancy_r": -0.136,
+      "total_r": -16.2,
+      "avg_reward_risk": 2.22
+    },
+    "lockbox": {
+      "trades": 9,
+      "win_rate": 0.556,
+      "profit_factor": 2.16,
+      "expectancy_r": 0.518,
+      "total_r": 4.7,
+      "avg_reward_risk": 2.16
+    },
+    "beat_random_p": 0.0,
+    "chosen_rules": {
+      "pivot_reach": 5,
+      "stop_share": 0.3,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 59,
+        "total_r": -16.46
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 24,
+        "total_r": 8.15
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 12,
+        "total_r": 2.85
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 9,
+        "total_r": 3.19
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 3,
+        "total_r": -3.0
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 12,
+        "total_r": -10.9
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "frxEURJPY",
+    "name": "EUR / JPY",
+    "timeframe": "15m",
+    "trigger": "limit",
+    "bars": 24232,
+    "spread": 0.02,
+    "walk_forward": {
+      "trades": 546,
+      "win_rate": 0.266,
+      "profit_factor": 0.84,
+      "expectancy_r": -0.116,
+      "total_r": -63.5,
+      "avg_reward_risk": 2.35
+    },
+    "lockbox": {
+      "trades": 111,
+      "win_rate": 0.306,
+      "profit_factor": 0.99,
+      "expectancy_r": -0.006,
+      "total_r": -0.6,
+      "avg_reward_risk": 2.46
+    },
+    "beat_random_p": 0.0,
+    "chosen_rules": {
+      "pivot_reach": 5,
+      "stop_share": 0.3,
+      "level_memory": 800,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 130,
+        "total_r": -16.99
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 171,
+        "total_r": -36.48
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 70,
+        "total_r": -8.05
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 63,
+        "total_r": -17.73
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 75,
+        "total_r": 9.03
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 37,
+        "total_r": 6.71
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "frxCHFJPY",
+    "name": "CHF / JPY",
+    "timeframe": "15m",
+    "trigger": "rejection",
+    "bars": 24231,
+    "spread": 0.04,
+    "walk_forward": {
+      "trades": 80,
+      "win_rate": 0.275,
+      "profit_factor": 0.86,
+      "expectancy_r": -0.1,
+      "total_r": -8.0,
+      "avg_reward_risk": 2.36
+    },
+    "lockbox": {
+      "trades": 24,
+      "win_rate": 0.208,
+      "profit_factor": 0.53,
+      "expectancy_r": -0.371,
+      "total_r": -8.9,
+      "avg_reward_risk": 2.37
+    },
+    "beat_random_p": 0.0,
+    "chosen_rules": {
+      "pivot_reach": 8,
+      "stop_share": 0.3,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 20,
+        "total_r": -3.6
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 14,
+        "total_r": -0.67
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 10,
+        "total_r": -6.98
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 13,
+        "total_r": 0.16
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 14,
+        "total_r": -1.48
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 9,
+        "total_r": 4.55
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "frxEURAUD",
+    "name": "EUR / AUD",
+    "timeframe": "15m",
+    "trigger": "rejection",
+    "bars": 24232,
+    "spread": 0.0003,
+    "walk_forward": {
+      "trades": 155,
+      "win_rate": 0.213,
+      "profit_factor": 0.58,
+      "expectancy_r": -0.329,
+      "total_r": -51.1,
+      "avg_reward_risk": 2.31
+    },
+    "lockbox": {
+      "trades": 8,
+      "win_rate": 0.25,
+      "profit_factor": 0.77,
+      "expectancy_r": -0.147,
+      "total_r": -1.2,
+      "avg_reward_risk": 2.34
+    },
+    "beat_random_p": 0.0,
+    "chosen_rules": {
+      "pivot_reach": 5,
+      "stop_share": 0.3,
+      "level_memory": 300,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 50,
+        "total_r": -7.7
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 43,
+        "total_r": -15.36
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 10,
+        "total_r": -3.12
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 16,
+        "total_r": -3.09
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 31,
+        "total_r": -16.8
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 5,
+        "total_r": -5.0
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "frxEURCAD",
+    "name": "EUR / CAD",
+    "timeframe": "15m",
+    "trigger": "rejection",
+    "bars": 24231,
+    "spread": 0.0003,
+    "walk_forward": {
+      "trades": 48,
+      "win_rate": 0.292,
+      "profit_factor": 0.81,
+      "expectancy_r": -0.136,
+      "total_r": -6.5,
+      "avg_reward_risk": 2.38
+    },
+    "lockbox": {
+      "trades": 4,
+      "win_rate": 0.5,
+      "profit_factor": 1.69,
+      "expectancy_r": 0.345,
+      "total_r": 1.4,
+      "avg_reward_risk": 2.42
+    },
+    "beat_random_p": 0.0,
+    "chosen_rules": {
+      "pivot_reach": 8,
+      "stop_share": 0.3,
+      "level_memory": 800,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 6,
+        "total_r": 3.48
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 20,
+        "total_r": -7.13
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 10,
+        "total_r": -3.78
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 3,
+        "total_r": -3.0
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 5,
+        "total_r": 5.32
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 4,
+        "total_r": -1.41
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "frxEURCHF",
+    "name": "EUR / CHF",
+    "timeframe": "15m",
+    "trigger": "rejection",
+    "bars": 24231,
+    "spread": 0.0002,
+    "walk_forward": {
+      "trades": 42,
+      "win_rate": 0.238,
+      "profit_factor": 0.43,
+      "expectancy_r": -0.424,
+      "total_r": -17.8,
+      "avg_reward_risk": 2.32
+    },
+    "lockbox": {
+      "trades": 4,
+      "win_rate": 0.75,
+      "profit_factor": 6.49,
+      "expectancy_r": 1.372,
+      "total_r": 5.5,
+      "avg_reward_risk": 3.52
+    },
+    "beat_random_p": 0.0,
+    "chosen_rules": {
+      "pivot_reach": 5,
+      "stop_share": 0.3,
+      "level_memory": 800,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 7,
+        "total_r": -5.34
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.2,
+        "level_memory": 800,
+        "trades": 12,
+        "total_r": -8.8
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 6,
+        "total_r": -3.52
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 4,
+        "total_r": 0.43
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 7,
+        "total_r": 3.27
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 6,
+        "total_r": -3.83
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "frxEURGBP",
+    "name": "EUR / GBP",
+    "timeframe": "15m",
+    "trigger": "rejection",
+    "bars": 24232,
+    "spread": 0.00015,
+    "walk_forward": {
+      "trades": 35,
+      "win_rate": 0.2,
+      "profit_factor": 0.53,
+      "expectancy_r": -0.368,
+      "total_r": -12.9,
+      "avg_reward_risk": 2.23
+    },
+    "lockbox": {
+      "trades": 4,
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "expectancy_r": -1.0,
+      "total_r": -4.0,
+      "avg_reward_risk": 2.62
+    },
+    "beat_random_p": 0.0,
+    "chosen_rules": {
+      "pivot_reach": 5,
+      "stop_share": 0.3,
+      "level_memory": 800,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 15,
+        "total_r": -1.27
+      },
+      {
+        "pivot_reach": 12,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 9,
+        "total_r": -5.76
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 6,
+        "total_r": -0.83
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 1,
+        "total_r": -1.0
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 2,
+        "total_r": -2.0
+      },
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 2,
+        "total_r": -2.0
+      }
+    ],
+    "verdict": "FAIL"
+  },
+  {
+    "symbol": "frxEURJPY",
+    "name": "EUR / JPY",
+    "timeframe": "15m",
+    "trigger": "rejection",
+    "bars": 24232,
+    "spread": 0.02,
+    "walk_forward": {
+      "trades": 205,
+      "win_rate": 0.215,
+      "profit_factor": 0.61,
+      "expectancy_r": -0.304,
+      "total_r": -62.3,
+      "avg_reward_risk": 2.33
+    },
+    "lockbox": {
+      "trades": 43,
+      "win_rate": 0.302,
+      "profit_factor": 0.99,
+      "expectancy_r": -0.01,
+      "total_r": -0.4,
+      "avg_reward_risk": 2.37
+    },
+    "beat_random_p": 0.003,
+    "chosen_rules": {
+      "pivot_reach": 8,
+      "stop_share": 0.3,
+      "level_memory": 800,
+      "min_reward_risk": 2.0,
+      "max_hold_bars": 96
+    },
+    "folds": [
+      {
+        "pivot_reach": 5,
+        "stop_share": 0.3,
+        "level_memory": 800,
+        "trades": 36,
+        "total_r": -25.96
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 57,
+        "total_r": -11.52
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 27,
+        "total_r": -11.5
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 26,
+        "total_r": -9.77
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 32,
+        "total_r": 7.34
+      },
+      {
+        "pivot_reach": 8,
+        "stop_share": 0.3,
+        "level_memory": 300,
+        "trades": 27,
+        "total_r": -10.91
+      }
+    ],
+    "verdict": "FAIL"
+  }
+]

@@ -1,0 +1,2036 @@
+{
+ "tests": 70,
+ "passes": [],
+ "rows": [
+  {
+   "market": "Gold / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "macd_pullback",
+   "params": {
+    "entry": {
+     "trend_period": 200
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 338,
+   "profit_factor": 1.02,
+   "total_r": 4.8,
+   "positive_folds": 3,
+   "random_p": 0.313,
+   "lockbox_r": 13.1,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random"
+   ]
+  },
+  {
+   "market": "Gold / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "ema_bounce",
+   "params": {
+    "entry": {
+     "touch_period": 50
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 652,
+   "profit_factor": 1.0,
+   "total_r": 0.7,
+   "positive_folds": 4,
+   "random_p": 1.0,
+   "lockbox_r": -4.4,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "Gold / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "trend_pullback",
+   "params": {
+    "entry": {
+     "rsi_level": 45
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 522,
+   "profit_factor": 0.99,
+   "total_r": -3.0,
+   "positive_folds": 3,
+   "random_p": 1.0,
+   "lockbox_r": -8.5,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "Gold / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "legacy_ema_cross",
+   "params": {
+    "entry": {
+     "fast": 5,
+     "slow": 21
+    },
+    "exit": {
+     "stop_atr": 3.0,
+     "reward_risk": 0.5
+    }
+   },
+   "trades": 848,
+   "profit_factor": 0.99,
+   "total_r": -3.7,
+   "positive_folds": 3,
+   "random_p": 1.0,
+   "lockbox_r": -2.5,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "Gold / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "rsi2_reversion",
+   "params": {
+    "entry": {
+     "oversold": 5
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 558,
+   "profit_factor": 0.98,
+   "total_r": -7.5,
+   "positive_folds": 3,
+   "random_p": 1.0,
+   "lockbox_r": 19.0,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random"
+   ]
+  },
+  {
+   "market": "Gold / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "donchian_breakout",
+   "params": {
+    "entry": {
+     "period": 20,
+     "adx_min": 20
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 628,
+   "profit_factor": 0.94,
+   "total_r": -26.0,
+   "positive_folds": 3,
+   "random_p": 1.0,
+   "lockbox_r": 32.9,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random"
+   ]
+  },
+  {
+   "market": "Gold / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "ema_cross",
+   "params": {
+    "entry": {
+     "fast": 9,
+     "slow": 50
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 542,
+   "profit_factor": 0.92,
+   "total_r": -26.5,
+   "positive_folds": 1,
+   "random_p": 1.0,
+   "lockbox_r": -6.5,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "Gold / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "legacy_macd_cross",
+   "params": {
+    "entry": {},
+    "exit": {
+     "stop_atr": 3.0,
+     "reward_risk": 0.833
+    }
+   },
+   "trades": 1085,
+   "profit_factor": 0.93,
+   "total_r": -32.6,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": -4.3,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "Gold / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "bollinger_reversion",
+   "params": {
+    "entry": {
+     "adx_max": 20
+    },
+    "exit": {
+     "stop_atr": 1.5,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 448,
+   "profit_factor": 0.79,
+   "total_r": -65.6,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": -15.5,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "Gold / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "legacy_rsi_crossback",
+   "params": {
+    "entry": {
+     "period": 14,
+     "oversold": 20,
+     "overbought": 70
+    },
+    "exit": {
+     "stop_atr": 3.0,
+     "reward_risk": 0.375
+    }
+   },
+   "trades": 780,
+   "profit_factor": 0.74,
+   "total_r": -76.3,
+   "positive_folds": 0,
+   "random_p": 1.0,
+   "lockbox_r": -15.4,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "EUR / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "bollinger_reversion",
+   "params": {
+    "entry": {
+     "adx_max": 20
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 368,
+   "profit_factor": 1.0,
+   "total_r": -0.5,
+   "positive_folds": 3,
+   "random_p": 1.0,
+   "lockbox_r": -41.1,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "EUR / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "macd_pullback",
+   "params": {
+    "entry": {
+     "trend_period": 100
+    },
+    "exit": {
+     "stop_atr": 1.5,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 357,
+   "profit_factor": 0.91,
+   "total_r": -20.1,
+   "positive_folds": 3,
+   "random_p": 1.0,
+   "lockbox_r": -8.4,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "EUR / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "ema_cross",
+   "params": {
+    "entry": {
+     "fast": 20,
+     "slow": 50
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 537,
+   "profit_factor": 0.94,
+   "total_r": -20.4,
+   "positive_folds": 3,
+   "random_p": 1.0,
+   "lockbox_r": -11.6,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "EUR / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "rsi2_reversion",
+   "params": {
+    "entry": {
+     "oversold": 5
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 632,
+   "profit_factor": 0.93,
+   "total_r": -27.5,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": -7.2,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "EUR / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "legacy_rsi_crossback",
+   "params": {
+    "entry": {
+     "period": 14,
+     "oversold": 30,
+     "overbought": 75
+    },
+    "exit": {
+     "stop_atr": 3.0,
+     "reward_risk": 0.833
+    }
+   },
+   "trades": 673,
+   "profit_factor": 0.87,
+   "total_r": -37.9,
+   "positive_folds": 3,
+   "random_p": 1.0,
+   "lockbox_r": -4.1,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "EUR / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "legacy_ema_cross",
+   "params": {
+    "entry": {
+     "fast": 12,
+     "slow": 26
+    },
+    "exit": {
+     "stop_atr": 3.0,
+     "reward_risk": 0.375
+    }
+   },
+   "trades": 721,
+   "profit_factor": 0.83,
+   "total_r": -46.0,
+   "positive_folds": 0,
+   "random_p": 1.0,
+   "lockbox_r": -19.6,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "EUR / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "legacy_macd_cross",
+   "params": {
+    "entry": {},
+    "exit": {
+     "stop_atr": 3.0,
+     "reward_risk": 0.375
+    }
+   },
+   "trades": 1502,
+   "profit_factor": 0.89,
+   "total_r": -49.3,
+   "positive_folds": 0,
+   "random_p": 1.0,
+   "lockbox_r": -5.3,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "EUR / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "ema_bounce",
+   "params": {
+    "entry": {
+     "touch_period": 50
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 888,
+   "profit_factor": 0.91,
+   "total_r": -49.4,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": -21.9,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "EUR / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "trend_pullback",
+   "params": {
+    "entry": {
+     "rsi_level": 35
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 493,
+   "profit_factor": 0.78,
+   "total_r": -71.5,
+   "positive_folds": 0,
+   "random_p": 1.0,
+   "lockbox_r": -23.8,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "EUR / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "donchian_breakout",
+   "params": {
+    "entry": {
+     "period": 20,
+     "adx_min": 20
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 573,
+   "profit_factor": 0.79,
+   "total_r": -81.9,
+   "positive_folds": 0,
+   "random_p": 1.0,
+   "lockbox_r": -9.9,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "GBP / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "legacy_ema_cross",
+   "params": {
+    "entry": {
+     "fast": 12,
+     "slow": 26
+    },
+    "exit": {
+     "stop_atr": 3.0,
+     "reward_risk": 0.833
+    }
+   },
+   "trades": 622,
+   "profit_factor": 1.02,
+   "total_r": 6.2,
+   "positive_folds": 3,
+   "random_p": 0.06,
+   "lockbox_r": -15.8,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "GBP / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "legacy_rsi_crossback",
+   "params": {
+    "entry": {
+     "period": 14,
+     "oversold": 20,
+     "overbought": 75
+    },
+    "exit": {
+     "stop_atr": 3.0,
+     "reward_risk": 0.833
+    }
+   },
+   "trades": 236,
+   "profit_factor": 1.0,
+   "total_r": 0.0,
+   "positive_folds": 4,
+   "random_p": 1.0,
+   "lockbox_r": -11.3,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "GBP / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "donchian_breakout",
+   "params": {
+    "entry": {
+     "period": 20,
+     "adx_min": 25
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 1.5
+    }
+   },
+   "trades": 516,
+   "profit_factor": 0.99,
+   "total_r": -2.3,
+   "positive_folds": 3,
+   "random_p": 1.0,
+   "lockbox_r": -23.7,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "GBP / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "macd_pullback",
+   "params": {
+    "entry": {
+     "trend_period": 100
+    },
+    "exit": {
+     "stop_atr": 1.5,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 372,
+   "profit_factor": 0.97,
+   "total_r": -6.9,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": -24.7,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "GBP / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "bollinger_reversion",
+   "params": {
+    "entry": {
+     "adx_max": 20
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 1.5
+    }
+   },
+   "trades": 628,
+   "profit_factor": 0.95,
+   "total_r": -20.6,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": 10.7,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random"
+   ]
+  },
+  {
+   "market": "GBP / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "ema_cross",
+   "params": {
+    "entry": {
+     "fast": 20,
+     "slow": 50
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 1.5
+    }
+   },
+   "trades": 602,
+   "profit_factor": 0.87,
+   "total_r": -47.4,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": -34.0,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "GBP / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "rsi2_reversion",
+   "params": {
+    "entry": {
+     "oversold": 5
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 837,
+   "profit_factor": 0.88,
+   "total_r": -64.7,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": -24.2,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "GBP / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "legacy_macd_cross",
+   "params": {
+    "entry": {},
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 0.375
+    }
+   },
+   "trades": 1635,
+   "profit_factor": 0.86,
+   "total_r": -67.0,
+   "positive_folds": 1,
+   "random_p": 1.0,
+   "lockbox_r": -79.1,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "GBP / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "trend_pullback",
+   "params": {
+    "entry": {
+     "rsi_level": 45
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 672,
+   "profit_factor": 0.82,
+   "total_r": -81.4,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": -33.9,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "GBP / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "ema_bounce",
+   "params": {
+    "entry": {
+     "touch_period": 50
+    },
+    "exit": {
+     "stop_atr": 1.5,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 935,
+   "profit_factor": 0.86,
+   "total_r": -90.5,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": -50.2,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "USD / JPY",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "legacy_ema_cross",
+   "params": {
+    "entry": {
+     "fast": 12,
+     "slow": 26
+    },
+    "exit": {
+     "stop_atr": 3.0,
+     "reward_risk": 0.833
+    }
+   },
+   "trades": 613,
+   "profit_factor": 1.09,
+   "total_r": 20.3,
+   "positive_folds": 4,
+   "random_p": 0.02,
+   "lockbox_r": 8.4,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy"
+   ]
+  },
+  {
+   "market": "USD / JPY",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "donchian_breakout",
+   "params": {
+    "entry": {
+     "period": 55,
+     "adx_min": 20
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 549,
+   "profit_factor": 1.02,
+   "total_r": 6.1,
+   "positive_folds": 3,
+   "random_p": 0.22,
+   "lockbox_r": -12.1,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "USD / JPY",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "ema_cross",
+   "params": {
+    "entry": {
+     "fast": 20,
+     "slow": 50
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 525,
+   "profit_factor": 1.01,
+   "total_r": 2.2,
+   "positive_folds": 3,
+   "random_p": 0.25,
+   "lockbox_r": 31.3,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random"
+   ]
+  },
+  {
+   "market": "USD / JPY",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "legacy_macd_cross",
+   "params": {
+    "entry": {},
+    "exit": {
+     "stop_atr": 3.0,
+     "reward_risk": 0.375
+    }
+   },
+   "trades": 1445,
+   "profit_factor": 0.93,
+   "total_r": -27.8,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": -3.2,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "USD / JPY",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "rsi2_reversion",
+   "params": {
+    "entry": {
+     "oversold": 10
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 867,
+   "profit_factor": 0.94,
+   "total_r": -29.5,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": -24.4,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "USD / JPY",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "legacy_rsi_crossback",
+   "params": {
+    "entry": {
+     "period": 14,
+     "oversold": 20,
+     "overbought": 70
+    },
+    "exit": {
+     "stop_atr": 3.0,
+     "reward_risk": 0.5
+    }
+   },
+   "trades": 493,
+   "profit_factor": 0.82,
+   "total_r": -33.6,
+   "positive_folds": 1,
+   "random_p": 1.0,
+   "lockbox_r": -0.4,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "USD / JPY",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "bollinger_reversion",
+   "params": {
+    "entry": {
+     "adx_max": 25
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 638,
+   "profit_factor": 0.92,
+   "total_r": -33.9,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": -50.9,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "USD / JPY",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "macd_pullback",
+   "params": {
+    "entry": {
+     "trend_period": 200
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 332,
+   "profit_factor": 0.82,
+   "total_r": -39.7,
+   "positive_folds": 1,
+   "random_p": 1.0,
+   "lockbox_r": 8.3,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random"
+   ]
+  },
+  {
+   "market": "USD / JPY",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "ema_bounce",
+   "params": {
+    "entry": {
+     "touch_period": 50
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 748,
+   "profit_factor": 0.91,
+   "total_r": -40.9,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": -41.2,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "USD / JPY",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "trend_pullback",
+   "params": {
+    "entry": {
+     "rsi_level": 45
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 1.5
+    }
+   },
+   "trades": 702,
+   "profit_factor": 0.83,
+   "total_r": -81.0,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": -41.0,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "AUD / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "ema_bounce",
+   "params": {
+    "entry": {
+     "touch_period": 50
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 1.5
+    }
+   },
+   "trades": 854,
+   "profit_factor": 1.01,
+   "total_r": 4.5,
+   "positive_folds": 4,
+   "random_p": 0.033,
+   "lockbox_r": -52.3,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "AUD / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "bollinger_reversion",
+   "params": {
+    "entry": {
+     "adx_max": 20
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 392,
+   "profit_factor": 0.98,
+   "total_r": -5.4,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": -32.5,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "AUD / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "legacy_ema_cross",
+   "params": {
+    "entry": {
+     "fast": 5,
+     "slow": 26
+    },
+    "exit": {
+     "stop_atr": 3.0,
+     "reward_risk": 0.833
+    }
+   },
+   "trades": 741,
+   "profit_factor": 0.96,
+   "total_r": -13.2,
+   "positive_folds": 3,
+   "random_p": 1.0,
+   "lockbox_r": -5.9,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "AUD / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "macd_pullback",
+   "params": {
+    "entry": {
+     "trend_period": 200
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 1.5
+    }
+   },
+   "trades": 368,
+   "profit_factor": 0.94,
+   "total_r": -14.2,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": -23.4,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "AUD / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "legacy_rsi_crossback",
+   "params": {
+    "entry": {
+     "period": 9,
+     "oversold": 20,
+     "overbought": 70
+    },
+    "exit": {
+     "stop_atr": 3.0,
+     "reward_risk": 0.833
+    }
+   },
+   "trades": 1143,
+   "profit_factor": 0.94,
+   "total_r": -32.1,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": -8.6,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "AUD / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "legacy_macd_cross",
+   "params": {
+    "entry": {},
+    "exit": {
+     "stop_atr": 3.0,
+     "reward_risk": 0.833
+    }
+   },
+   "trades": 1181,
+   "profit_factor": 0.93,
+   "total_r": -33.9,
+   "positive_folds": 1,
+   "random_p": 1.0,
+   "lockbox_r": -7.1,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "AUD / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "ema_cross",
+   "params": {
+    "entry": {
+     "fast": 20,
+     "slow": 50
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 1.5
+    }
+   },
+   "trades": 593,
+   "profit_factor": 0.91,
+   "total_r": -34.0,
+   "positive_folds": 1,
+   "random_p": 1.0,
+   "lockbox_r": -39.2,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "AUD / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "trend_pullback",
+   "params": {
+    "entry": {
+     "rsi_level": 40
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 368,
+   "profit_factor": 0.86,
+   "total_r": -34.7,
+   "positive_folds": 1,
+   "random_p": 1.0,
+   "lockbox_r": -43.5,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "AUD / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "donchian_breakout",
+   "params": {
+    "entry": {
+     "period": 20,
+     "adx_min": 25
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 483,
+   "profit_factor": 0.83,
+   "total_r": -54.8,
+   "positive_folds": 1,
+   "random_p": 1.0,
+   "lockbox_r": -15.1,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "AUD / USD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "rsi2_reversion",
+   "params": {
+    "entry": {
+     "oversold": 5
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 1.5
+    }
+   },
+   "trades": 768,
+   "profit_factor": 0.82,
+   "total_r": -87.8,
+   "positive_folds": 1,
+   "random_p": 1.0,
+   "lockbox_r": -19.9,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "USD / CAD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "macd_pullback",
+   "params": {
+    "entry": {
+     "trend_period": 200
+    },
+    "exit": {
+     "stop_atr": 1.5,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 387,
+   "profit_factor": 1.0,
+   "total_r": -0.6,
+   "positive_folds": 4,
+   "random_p": 1.0,
+   "lockbox_r": -15.9,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "USD / CAD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "legacy_rsi_crossback",
+   "params": {
+    "entry": {
+     "period": 9,
+     "oversold": 30,
+     "overbought": 70
+    },
+    "exit": {
+     "stop_atr": 3.0,
+     "reward_risk": 0.833
+    }
+   },
+   "trades": 856,
+   "profit_factor": 0.97,
+   "total_r": -12.4,
+   "positive_folds": 3,
+   "random_p": 1.0,
+   "lockbox_r": -76.9,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "USD / CAD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "trend_pullback",
+   "params": {
+    "entry": {
+     "rsi_level": 35
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 1.5
+    }
+   },
+   "trades": 291,
+   "profit_factor": 0.87,
+   "total_r": -23.9,
+   "positive_folds": 1,
+   "random_p": 1.0,
+   "lockbox_r": -17.1,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "USD / CAD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "bollinger_reversion",
+   "params": {
+    "entry": {
+     "adx_max": 20
+    },
+    "exit": {
+     "stop_atr": 1.5,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 469,
+   "profit_factor": 0.91,
+   "total_r": -29.3,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": -54.3,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "USD / CAD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "ema_bounce",
+   "params": {
+    "entry": {
+     "touch_period": 50
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 1.5
+    }
+   },
+   "trades": 795,
+   "profit_factor": 0.93,
+   "total_r": -33.4,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": -1.7,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "USD / CAD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "legacy_macd_cross",
+   "params": {
+    "entry": {},
+    "exit": {
+     "stop_atr": 3.0,
+     "reward_risk": 0.375
+    }
+   },
+   "trades": 1429,
+   "profit_factor": 0.87,
+   "total_r": -59.8,
+   "positive_folds": 1,
+   "random_p": 1.0,
+   "lockbox_r": -50.3,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "USD / CAD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "ema_cross",
+   "params": {
+    "entry": {
+     "fast": 9,
+     "slow": 50
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 1.5
+    }
+   },
+   "trades": 645,
+   "profit_factor": 0.84,
+   "total_r": -62.9,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": -5.0,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "USD / CAD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "legacy_ema_cross",
+   "params": {
+    "entry": {
+     "fast": 12,
+     "slow": 21
+    },
+    "exit": {
+     "stop_atr": 3.0,
+     "reward_risk": 0.833
+    }
+   },
+   "trades": 732,
+   "profit_factor": 0.81,
+   "total_r": -63.6,
+   "positive_folds": 1,
+   "random_p": 1.0,
+   "lockbox_r": -12.6,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "USD / CAD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "donchian_breakout",
+   "params": {
+    "entry": {
+     "period": 20,
+     "adx_min": 25
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 1.5
+    }
+   },
+   "trades": 579,
+   "profit_factor": 0.81,
+   "total_r": -71.3,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": -5.1,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "USD / CAD",
+   "from": "2016-01-03",
+   "to": "2026-09-16",
+   "strategy": "rsi2_reversion",
+   "params": {
+    "entry": {
+     "oversold": 10
+    },
+    "exit": {
+     "stop_atr": 1.5,
+     "reward_risk": 1.5
+    }
+   },
+   "trades": 1024,
+   "profit_factor": 0.86,
+   "total_r": -100.3,
+   "positive_folds": 0,
+   "random_p": 1.0,
+   "lockbox_r": -11.6,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "Bitcoin / USD",
+   "from": "2017-05-07",
+   "to": "2026-09-16",
+   "strategy": "ema_cross",
+   "params": {
+    "entry": {
+     "fast": 9,
+     "slow": 50
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 664,
+   "profit_factor": 1.06,
+   "total_r": 24.6,
+   "positive_folds": 3,
+   "random_p": 0.097,
+   "lockbox_r": -13.3,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "Bitcoin / USD",
+   "from": "2017-05-07",
+   "to": "2026-09-16",
+   "strategy": "bollinger_reversion",
+   "params": {
+    "entry": {
+     "adx_max": 20
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 599,
+   "profit_factor": 1.05,
+   "total_r": 20.0,
+   "positive_folds": 4,
+   "random_p": 0.1,
+   "lockbox_r": 1.7,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "beats random"
+   ]
+  },
+  {
+   "market": "Bitcoin / USD",
+   "from": "2017-05-07",
+   "to": "2026-09-16",
+   "strategy": "legacy_ema_cross",
+   "params": {
+    "entry": {
+     "fast": 12,
+     "slow": 26
+    },
+    "exit": {
+     "stop_atr": 3.0,
+     "reward_risk": 0.833
+    }
+   },
+   "trades": 707,
+   "profit_factor": 1.04,
+   "total_r": 11.6,
+   "positive_folds": 3,
+   "random_p": 0.117,
+   "lockbox_r": -7.7,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "Bitcoin / USD",
+   "from": "2017-05-07",
+   "to": "2026-09-16",
+   "strategy": "trend_pullback",
+   "params": {
+    "entry": {
+     "rsi_level": 35
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 317,
+   "profit_factor": 1.04,
+   "total_r": 7.2,
+   "positive_folds": 4,
+   "random_p": 0.183,
+   "lockbox_r": -17.5,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "Bitcoin / USD",
+   "from": "2017-05-07",
+   "to": "2026-09-16",
+   "strategy": "ema_bounce",
+   "params": {
+    "entry": {
+     "touch_period": 50
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 791,
+   "profit_factor": 1.0,
+   "total_r": 2.3,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": 15.0,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random"
+   ]
+  },
+  {
+   "market": "Bitcoin / USD",
+   "from": "2017-05-07",
+   "to": "2026-09-16",
+   "strategy": "rsi2_reversion",
+   "params": {
+    "entry": {
+     "oversold": 5
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 733,
+   "profit_factor": 1.0,
+   "total_r": 0.3,
+   "positive_folds": 4,
+   "random_p": 1.0,
+   "lockbox_r": 11.3,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "beats random"
+   ]
+  },
+  {
+   "market": "Bitcoin / USD",
+   "from": "2017-05-07",
+   "to": "2026-09-16",
+   "strategy": "macd_pullback",
+   "params": {
+    "entry": {
+     "trend_period": 200
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 403,
+   "profit_factor": 0.96,
+   "total_r": -10.9,
+   "positive_folds": 2,
+   "random_p": 1.0,
+   "lockbox_r": -23.6,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "Bitcoin / USD",
+   "from": "2017-05-07",
+   "to": "2026-09-16",
+   "strategy": "legacy_rsi_crossback",
+   "params": {
+    "entry": {
+     "period": 14,
+     "oversold": 20,
+     "overbought": 75
+    },
+    "exit": {
+     "stop_atr": 3.0,
+     "reward_risk": 0.375
+    }
+   },
+   "trades": 388,
+   "profit_factor": 0.78,
+   "total_r": -27.5,
+   "positive_folds": 0,
+   "random_p": 1.0,
+   "lockbox_r": -7.8,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  },
+  {
+   "market": "Bitcoin / USD",
+   "from": "2017-05-07",
+   "to": "2026-09-16",
+   "strategy": "donchian_breakout",
+   "params": {
+    "entry": {
+     "period": 55,
+     "adx_min": 20
+    },
+    "exit": {
+     "stop_atr": 2.0,
+     "reward_risk": 2.0
+    }
+   },
+   "trades": 623,
+   "profit_factor": 0.93,
+   "total_r": -28.6,
+   "positive_folds": 3,
+   "random_p": 1.0,
+   "lockbox_r": 12.7,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random"
+   ]
+  },
+  {
+   "market": "Bitcoin / USD",
+   "from": "2017-05-07",
+   "to": "2026-09-16",
+   "strategy": "legacy_macd_cross",
+   "params": {
+    "entry": {},
+    "exit": {
+     "stop_atr": 3.0,
+     "reward_risk": 0.833
+    }
+   },
+   "trades": 1281,
+   "profit_factor": 0.92,
+   "total_r": -40.3,
+   "positive_folds": 1,
+   "random_p": 1.0,
+   "lockbox_r": -24.2,
+   "survives": false,
+   "failed": [
+    "profit factor",
+    "expectancy",
+    "consistent folds",
+    "beats random",
+    "lockbox not negative"
+   ]
+  }
+ ]
+}
